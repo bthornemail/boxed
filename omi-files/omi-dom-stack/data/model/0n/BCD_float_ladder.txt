@@ -1,0 +1,25 @@
+BCD FLOAT LADDER — 0n literal form
+Every row carries the 0n suffix: a sign bit, an exponent, and a significand.
+The significand is the modern term; the mantissa is what remains after the
+implicit leading bit is stripped. 0x0011n decomposes as:
+
+  sign       = 1 bit          (top of the nibble)
+  exponent   = byte.offset    (_1d/0-atomics/1-byte.offset)
+  significand= bytes.per.element (_1d/0-atomics/0-bytes.per.element)
+  span       = byte.length    (_1d/0-atomics/2-byte.length)
+
+Repunit family (octal) — jump vectors, 0n form:
+
+0b0001(/CONSTRAINT/)0o0001n
+0b0011((/CONSTRAINT/g))0o0002n
+0b0111(((/CONSTRAINT/BOUNDRY/)))0o0003n
+0b1111((((/CONSTRAINT/BOUNDRY/g))))0o0004n
+
+0o0007</Base/>0o0005n
+0o0077<</BasePerElement>>0o0006n
+0o0777<<</BaseLength/>>>0o0007n
+0o7777<<<</BaseOffset/>>>>0o0008n
+
+Verified: 0o0007=7 0o0077=63 0o0777=511 0o7777=4095  (= 8^n - 1)
+0o1111 = 585 = (8^4 - 1)/7
+1/7 = 0.142857 ; 7 * 142857 = 999999

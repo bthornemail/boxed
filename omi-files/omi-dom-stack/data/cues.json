@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1002,
+    "name": "station",
+    "media": "print",
+    "text": "screen is a wire",
+    "lottery": {
+      "allocatable": true,
+      "cycles": 12,
+      "point": 2,
+      "media": "print",
+      "line": 4,
+      "live": true,
+      "note": "printers + print preview"
+    }
+  },
+  {
+    "id": 1003,
+    "name": "np1",
+    "media": "screen",
+    "text": "q",
+    "lottery": {
+      "allocatable": true,
+      "cycles": 9,
+      "point": 1,
+      "media": "screen",
+      "line": 1,
+      "live": true,
+      "note": "non-print devices"
+    }
+  },
+  {
+    "id": 1004,
+    "name": "user",
+    "media": "all",
+    "text": "xor",
+    "lottery": {
+      "allocatable": false,
+      "cycles": 14,
+      "point": 6,
+      "media": null,
+      "line": null,
+      "live": false,
+      "note": "not allocatable — request not expressible on today's wired channels"
+    }
+  }
+]

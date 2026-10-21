@@ -1,0 +1,22 @@
+POINT LADDER — 0p literal form
+N = literal marker, P = point/number. 0p rows are the PNP-form mirror of the
+0n NPN-form rows: 0n0p0n is spectral, 0p0n0p is spatial. A 0p literal is a
+point we can point at — pinch point, branch point, Euclidean point.
+
+Point / line rows, 0p form (jump vectors, 0p suffix):
+
+0x0008[/POINT/]0x0005p
+0x0088[[/POINT/g]]0x0006p
+0x0888[[[/POINT/LINE/]]]0x0007p
+0x8888[[[[/POINT/LINE/g]]]]0x0008p
+
+Compare rows, 0p form — the PNP dial of the bind-apply-eval-digest face:
+
+0x0001{/BIND/}0x0001p
+0x0011{{/APPLY/}}0x0002p
+0x0111{{{/EVAL/}}}0x0003p
+0x1111{{{{/DIGEST/}}}}0x0004p
+
+Verified: 0x0008=8 0x0088=136 0x0888=2184 0x8888=34952  (= 8*(16^n-1)/15)
+0x0080 -> 0x0800 = 128 -> 2048, a 4-bit-position jump.
+Cross-radix closure: 0x1111 ^ 0x8888 = 0x9999.

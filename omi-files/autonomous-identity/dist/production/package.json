@@ -1,0 +1,19 @@
+{
+  "name": "@h2gnn/ai-persistence-core-production",
+  "version": "1.0.0",
+  "description": "AI Persistence Core Package - Production Build",
+  "main": "core/index.js",
+  "types": "core/index.d.ts",
+  "scripts": {
+    "start": "node core/index.js",
+    "test": "npm test",
+    "build": "echo 'Already built'"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "crypto": "^1.0.1"
+  },
+  "keywords": ["ai", "persistence", "h2gnn", "hyperbolic", "neural-network"],
+  "author": "H²GNN Team",
+  "license": "MIT"
+}
