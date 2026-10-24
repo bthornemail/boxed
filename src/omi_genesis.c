@@ -13,7 +13,7 @@
 #define OMI_SLOTS_MPT    16u    
 
 typedef struct {
-    uint16_t segment[8]; // Match 16-byte layout exactly
+    uint16_t segment[8]; // Array matching 128 bits exactly (16 bytes) [INDEX: 0.1.1]
 } OmiFrame128;
 
 typedef struct {
@@ -80,7 +80,7 @@ int omi_execute_genesis_automaton(const OmiFrame128 *frame) {
 
     atomic_store(&omi_engram_space[OMI_INDEX_ANCHOR], 60);
 
-    // Direct, explicit array indexing prevents pointer truncation
+    // Pull directly from separate structural memory channels [INDEX: 0.1.5]
     uint16_t seg3 = frame->segment[0]; 
     uint16_t seg5 = frame->segment[1]; 
 
@@ -91,7 +91,7 @@ int omi_execute_genesis_automaton(const OmiFrame128 *frame) {
     printf("  Host Target Pinned Anchor : %d\n", atomic_load(&omi_engram_space[OMI_INDEX_ANCHOR]));
     printf("  Calculated Vault Pole Axis: %u\n", OMI_INDEX_ANCHOR ^ 128u);
 
-    // ── Day 3 Space Transition (Index 59) ──────────────────────────
+    // ── Day 3 Space Transition (Index 59: Terminating Statement) ──────
     if (metrics3.texture % 2 == 0 && metrics3.density == 8) {
         int32_t expected = 0;
         if (atomic_compare_exchange_strong(&omi_engram_space[OMI_INDEX_A], &expected, 3)) {
@@ -99,7 +99,7 @@ int omi_execute_genesis_automaton(const OmiFrame128 *frame) {
         }
     }
 
-    // ── Day 5 Space Transition (Index 63) ──────────────────────────
+    // ── Day 5 Space Transition (Index 63: Conditional Branch Fork) ────
     if (metrics5.texture % 2 != 0) {
         int32_t expected = 0;
         if (atomic_compare_exchange_strong(&omi_engram_space[OMI_INDEX_B], &expected, 5)) {
