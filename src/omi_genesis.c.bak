@@ -1,0 +1,151 @@
+#include <stdint.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdatomic.h>
+
+// ─── I-177 Absolute Automaton Constants ────────────────────────────
+#define OMI_INDEX_A     59u    // 0x3B (;) Statement Boundary
+#define OMI_INDEX_B     63u    // 0x3F (?) Conditional Branch Fork
+#define OMI_INDEX_C     127u   // 0x7F (DEL) Bit-Mask Erase State
+#define OMI_INDEX_ANCHOR 60u   // 0x3C Pinned Vault Anchor [INDEX: 0.1.3]
+#define OMI_POLE_AXIS   188u   // 60 ^ 128 = 188 (SPEC-07 I-18 Vault Pole) [INDEX: 0.1.3]
+#define OMI_SPACE_65536 65536u // The 65536 byte Engram Space [INDEX: 0.1.10]
+
+// Define the 8-segment, 128-bit frame structure matching your engine
+typedef struct {
+    uint16_t segment[8];
+} OmiFrame128;
+
+typedef struct {
+    uint8_t width;
+    uint8_t density;
+    uint8_t texture;
+} OmiBand;
+
+// Ensure strict geometry compilation bounds (Modal Necessity ⬜) [INDEX: 0.1.1]
+_Static_assert(sizeof(OmiFrame128) == 16, "OmiFrame128 must be exactly 128 bits");
+
+// Non-destructive host-endianness inversion primitive [INDEX: 0.1.2]
+static inline uint16_t swap16(uint16_t x) {
+    return (uint16_t)(((x & 0xFF) << 8) | ((x >> 8) & 0xFF));
+}
+
+// Global 65536 Engram Space Thread-Safe Array Buffer [INDEX: 0.1.3, 0.1.10]
+static _Atomic int32_t omi_engram_space[256]; 
+
+static uint8_t popcount16(uint16_t x) {
+    uint8_t count = 0u;
+    for (unsigned i = 0u; i < 16u; ++i) {
+        count = (uint8_t)(count + ((x >> i) & 1u));
+    }
+    return count;
+}
+
+static uint8_t texture16(uint16_t x) {
+    uint8_t transitions = 0u;
+    for (unsigned i = 0u; i < 16u; ++i) {
+        const unsigned j = (i + 1u) & 15u;
+        const unsigned a = (x >> i) & 1u;
+        const unsigned b = (x >> j) & 1u;
+        transitions = (uint8_t)(transitions + (a ^ b));
+    }
+    return transitions;
+}
+
+static OmiBand omi_classify_permuted(uint16_t x) {
+    uint16_t permuted_view = swap16(x); // Permute space non-destructively [INDEX: 0.1.2]
+    uint8_t width = 0u;
+    uint16_t tmp = permuted_view;
+    while (tmp != 0u) {
+        ++width;
+        tmp = (uint16_t)(tmp >> 1u);
+    }
+    OmiBand band = {
+        .width = width,
+        .density = popcount16(permuted_view),
+        .texture = texture16(permuted_view)
+    };
+    return band;
+}
+
+/**
+ * omi_execute_genesis_automaton
+ * Processes an incoming memory frame and applies thread-safe atomic transitions 
+ * across the I-177 alphabet based on structural texture classifications. [INDEX: 0.1.13]
+ */
+int omi_execute_genesis_automaton(const OmiFrame128 *frame) {
+    if (frame == NULL) {
+        fprintf(stderr, "FAIL: Genesis Automaton missing raw memory frame reference.\n");
+        return 1;
+    }
+
+    // Initialize our pinned anchor inside the engram space [INDEX: 0.1.3]
+    atomic_store(&omi_engram_space[OMI_INDEX_ANCHOR], 60);
+
+// Inside your omi_execute_genesis_automaton function:
+uint16_t seg3 = frame->segment[1]; // Pulls the 0x5A3C static structure [INDEX: 0.1.5]
+uint16_t seg5 = frame->segment[2]; // Pulls the 0x2F4D kinetic structure [INDEX: 0.1.5]
+    // // Isolate the core generation segments from the frame
+    // uint16_t seg3 = frame->segment[3]; // Vector Layer for Day 3 Type
+    // uint16_t seg5 = frame->segment[5]; // Vector Layer for Day 5 Type
+
+    // Run non-destructive space classification via our host swap filter [INDEX: 0.1.2]
+    OmiBand metrics3 = omi_classify_permuted(seg3);
+    OmiBand metrics5 = omi_classify_permuted(seg5);
+
+    printf("=== Initializing I-177 Atomic Genesis Automaton ===\n");
+    printf("  Host Target Pinned Anchor : %d\n", atomic_load(&omi_engram_space[OMI_INDEX_ANCHOR]));
+    printf("  Calculated Vault Pole Axis: %u\n", OMI_INDEX_ANCHOR ^ 128u); // 60 ⊕ 128 = 188 [INDEX: 0.1.3]
+
+    // ── Day 3 Space Transition (Index 59: Terminating Statement) ──────
+    // If the Day 3 segment possesses even texture parity, it represents the static seed class
+    if (metrics3.texture % 2 == 0 && metrics3.density == 8) {
+        int32_t expected = 0; // Day 0 Null Void State
+        // Execute Atomic Compare-Exchange Transition at Index 59 [INDEX: 0.1.3]
+        if (atomic_compare_exchange_strong(&omi_engram_space[OMI_INDEX_A], &expected, 3)) {
+            printf("[TRANSITION SUCCESS] Index 59 -> Materialized: DAY_3_STATIC_SEED_CLASS\n");
+        }
+    }
+
+    // ── Day 5 Space Transition (Index 63: Conditional Branch Fork) ────
+    // If the Day 5 segment possesses odd texture parity, it represents the kinetic breath class
+    if (metrics5.texture % 2 != 0) {
+        int32_t expected = 0;
+        // Execute Atomic Compare-Exchange Transition at Index 63 [INDEX: 0.1.3]
+        if (atomic_compare_exchange_strong(&omi_engram_space[OMI_INDEX_B], &expected, 5)) {
+            printf("[TRANSITION SUCCESS] Index 63 -> Materialized: DAY_5_KINETIC_BREATH_CLASS\n");
+        }
+    }
+
+    // ── Structural Safety Check: XOR Type Separation Protocol ──────────
+    int32_t stateA = atomic_load(&omi_engram_space[OMI_INDEX_A]);
+    int32_t stateB = atomic_load(&omi_engram_space[OMI_INDEX_B]);
+
+    // Exclusive-OR verification: The state transition layers must maintain clean boundaries
+    if ((stateA ^ stateB) == 0) {
+        fprintf(stderr, "CRITICAL ERROR: Type space collapsed. Threshold logical failure.\n");
+        // Trigger emergency bit-mask erase at Index 127 [INDEX: 0.1.3]
+        atomic_store(&omi_engram_space[OMI_INDEX_C], 0x7F);
+        return 1; // Exit failure: Rule violated
+    }
+
+    printf("[STATUS: PASS] Genesis Automaton Matrix Secure across the 65536 Engram.\n\n");
+    return 0; // Exit success
+}
+
+// Independent test runner block for your compilation verification loops
+#ifndef TEST_MAIN_OPAQUE
+int main(void) {
+    OmiFrame128 mock_frame;
+    memset(&mock_frame, 0, sizeof(mock_frame));
+
+    // Force non-destructive hex values into memory blocks to trigger the state machine [INDEX: 0.1.2]
+    // These specific constants map directly to your valid permuted metrics
+    mock_frame.segment[3] = swap16(0x5A3C); 
+    mock_frame.segment[5] = swap16(0x2F4D);
+
+    int result = omi_execute_genesis_automaton(&mock_frame);
+    return result;
+}
+#endif
