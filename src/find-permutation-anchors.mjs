@@ -84,5 +84,6 @@ for (let seed = 0; seed <= 0xFFFF; seed++) {
 }
 
 if (found === 0) {
-  console.log("No anchors uncovered. Space configuration requires 32-bit boundary permutation mapping.");
+  console.log("No anchors uncovered. Reason: an odd texture is impossible at any width. Texture counts bit");
+  console.log("flips around a closed loop, which is always even; a 32-bit loop is still a loop.");
 }

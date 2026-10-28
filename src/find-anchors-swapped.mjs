@@ -78,5 +78,6 @@ for (let seed = 0; seed <= 0xFFFF; seed++) {
 }
 
 if (found === 0) {
-  console.log("State space still locked. Deep matrix realignment required.");
+  console.log("No seeds found. Reason: an odd texture is impossible. Texture counts bit flips around a");
+  console.log("closed loop, which is always even; swap16 only reorders the bits, so the parity is unchanged.");
 }

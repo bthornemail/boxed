@@ -75,5 +75,7 @@ for (let seed = 0; seed <= 0xFFFF; seed++) {
 
 if (found === 0) {
   console.log("No non-colliding seeds found under current pure bitwise parameters.");
-  console.log("A raw buffer endianness swap is required to unlock the bitfield alignment.");
+  console.log("Reason: Rule 3 asks for an odd texture, but texture counts bit flips around a closed");
+  console.log("loop, and a loop always flips back as often as it flips over: texture is always even.");
+  console.log("No byte swap, permutation or wider word can change that parity; Rule 3 can never pass.");
 }
