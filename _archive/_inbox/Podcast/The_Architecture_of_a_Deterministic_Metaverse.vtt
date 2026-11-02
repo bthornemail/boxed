@@ -1,0 +1,713 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.000
+(Transcribed by UniScribe (https://www.uniscribe.co). Upgrade to remove this message.)
+
+00:00:00.000 --> 00:00:02.079
+Imagine if tomorrow morning...
+
+00:00:02.730 --> 00:00:08.062
+Physicists at CERN just suddenly announced this absolutely terrifying discovery.
+
+00:00:08.062 --> 00:00:13.654
+Oh, man. Like, they've realized that our physical universe literally cannot handle
+
+00:00:13.654 --> 00:00:17.829
+the number 248. Right, like a literal bug in the physics engine.
+
+00:00:17.829 --> 00:00:22.161
+Exactly. Not that the number itself doesn't exist, but, you know,
+
+00:00:22.161 --> 00:00:27.280
+if you actually tried to scale any physical system to exactly 248 dimensions,
+
+00:00:27.280 --> 00:00:29.564
+time just permanently stops. Wow.
+
+00:00:29.564 --> 00:00:31.440
+Wow. Causality is completely shattered.
+
+00:00:31.619 --> 00:00:33.660
+You couldn't move forward. You couldn't reverse.
+
+00:00:34.279 --> 00:00:37.180
+You'd honestly think it was a glitch in the simulation of reality.
+
+00:00:37.300 --> 00:00:39.340
+You'd think the whole universe was just broken.
+
+00:00:39.840 --> 00:00:43.139
+I mean, that would fundamentally upend our entire understanding of physics, right?
+
+00:00:43.139 --> 00:00:47.680
+Because it would imply that the actual structural integrity of reality is completely
+
+00:00:47.680 --> 00:00:51.559
+dependent on... on the mathematical width of the space it occupies.
+
+00:00:51.719 --> 00:00:56.200
+Right. Well, today, we are looking at a digital universe where that exact scenario
+
+00:00:56.200 --> 00:00:59.433
+is not a glitch at all, It is a mathematical guarantee.
+
+00:00:59.433 --> 00:01:01.267
+So welcome to today's Deep Dive.
+
+00:01:01.267 --> 00:01:05.885
+Glad to be here. Yeah. Our mission for the next hour or so is decoding this massive,
+
+00:01:05.885 --> 00:01:10.775
+just incredibly intricate stack of source material, detailing the architecture of a
+
+00:01:10.775 --> 00:01:13.832
+perfectly deterministic cyber physical metaverse.
+
+00:01:13.832 --> 00:01:16.684
+And, you know, this is not your typical metaverse.
+
+00:01:16.684 --> 00:01:21.506
+I think when people hear that word, they automatically think of like virtual reality
+
+00:01:21.506 --> 00:01:26.057
+chat rooms or, you know, sandbox video games where everything is super elastic.
+
+00:01:26.057 --> 00:01:29.619
+Yeah, totally. In those systems, if you want a bigger world,
+
+00:01:29.619 --> 00:01:30.740
+you just buy more server space.
+
+00:01:31.199 --> 00:01:35.699
+If you want the simulation to run longer, you just let the CPU clock tick faster.
+
+00:01:36.239 --> 00:01:40.540
+It's all just floating point math and sloppy predictive algorithms.
+
+00:01:40.640 --> 00:01:44.519
+We talk about scaling like it's just adding more RAM to a server.
+
+00:01:44.519 --> 00:01:49.340
+But in a truly deterministic system, scaling is entirely about causality.
+
+00:01:49.879 --> 00:01:51.920
+Right. It's really about the light cone.
+
+00:01:52.060 --> 00:01:56.879
+Yes, exactly. The light cone defines what can actually affect what.
+
+00:01:56.879 --> 00:02:01.939
+So in our system here, the 65,536 reticle
+
+00:02:02.250 --> 00:02:07.050
+which is this core component we'll get into, that is the exact cross-section of the
+
+00:02:07.050 --> 00:02:11.350
+cone at now. Okay, right. The past is the trace log.
+
+00:02:11.350 --> 00:02:15.900
+The future is the Delta log. And then what about the Hilbert space?
+
+00:02:15.900 --> 00:02:19.520
+Because from a physics perspective, that's the infinite space of all possible
+
+00:02:19.520 --> 00:02:21.759
+states, right? Every possible configuration.
+
+00:02:21.999 --> 00:02:24.739
+But you can't compute infinity.
+
+00:02:24.839 --> 00:02:27.499
+A computer will just crash. You need a finite basis.
+
+00:02:27.819 --> 00:02:30.079
+Right. And that's the 65,536.
+
+00:02:31.100 --> 00:02:34.279
+That is the finite basis. It's the reticle.
+
+00:02:34.399 --> 00:02:38.559
+The 16-bit word is basically the register that makes the Hilbert space measurable.
+
+00:02:38.639 --> 00:02:43.259
+Okay. So to you listening, whether you build complex systems for a living or you
+
+00:02:43.259 --> 00:02:47.320
+study theoretical physics or you're just wildly curious about how theology,
+
+00:02:47.320 --> 00:02:52.300
+geometry and low-level code can all intersect, this deep dive is going to completely
+
+00:02:52.300 --> 00:02:54.679
+reframe how you think about digital reality.
+
+00:02:55.050 --> 00:03:00.249
+Definitely. Because like you said, scaling this universe does not mean adding RAM.
+
+00:03:00.360 --> 00:03:02.739
+It means expanding truth table congruency.
+
+00:03:02.899 --> 00:03:06.820
+Yes. So when you run, say, eight agents in this metaverse,
+
+00:03:06.820 --> 00:03:08.799
+you are running eight separate universes.
+
+00:03:09.300 --> 00:03:12.559
+you are running eight cross-sections of the exact same light cone,
+
+00:03:12.559 --> 00:03:14.819
+just projected at different points.
+
+00:03:14.819 --> 00:03:17.779
+Exactly. The hardware bandwidth is really just the sensor scope.
+
+00:03:18.150 --> 00:03:21.709
+Like the 16 gigabytes of RAM determines how many cross sections you can hold at
+
+00:03:21.709 --> 00:03:26.990
+once. But the logical space is always the same 65,536 replicated.
+
+00:03:27.210 --> 00:03:28.870
+And the analog to digital normalization.
+
+00:03:29.490 --> 00:03:32.249
+That's what physicists would call the"elsewhere,"you know,
+
+00:03:32.249 --> 00:03:36.089
+the part of the cone that is space-like that cannot causally connect to us.
+
+00:03:36.089 --> 00:03:40.250
+That's the shared interpretation. We don't agree on the analog noise, right?
+
+00:03:40.250 --> 00:03:44.369
+We agree on the reticle, the 65,536, the literal bytes.
+
+00:03:44.429 --> 00:03:49.410
+So the scaling law is basically, you divide the logical space by the physical RAM
+
+00:03:49.410 --> 00:03:52.149
+and you get the number of concurrent cross-sections.
+
+00:03:52.210 --> 00:03:55.049
+It's a factorial of the modulus active words.
+
+00:03:55.530 --> 00:04:00.340
+And that factorial is the search space, the Hilbert space, the infinite.
+
+00:04:00.340 --> 00:04:04.059
+But the reticle is always 65,536.
+
+00:04:05.099 --> 00:04:08.849
+The light cone is always causal. the bytes are always real.
+
+00:04:09.770 --> 00:04:13.769
+Okay, this is amazing, but we are jumping in slightly ahead of ourselves here.
+
+00:04:13.789 --> 00:04:19.030
+Before we zoom down into the atomic level of the 16-bit word and that reticle,
+
+00:04:19.030 --> 00:04:21.969
+we need to understand the macro architecture of this universe.
+
+00:04:22.529 --> 00:04:24.690
+We need the overarching blueprint first.
+
+00:04:25.009 --> 00:04:30.949
+Exactly. Because looking at the complete TMHG system structure from the Mermaid
+
+00:04:30.949 --> 00:04:36.329
+flowcharts and our sources, I mean, it feels less like a software architecture and
+
+00:04:36.329 --> 00:04:38.569
+more like a metaphysical hierarchy.
+
+00:04:38.650 --> 00:04:43.089
+It really does. The diagram maps this highly specific,
+
+00:04:43.089 --> 00:04:45.950
+almost theological flow of information.
+
+00:04:46.070 --> 00:04:50.609
+It starts at this supreme abstract node labeled God4D.
+
+00:04:51.629 --> 00:04:55.789
+Wow. And that node flows downward into Word 4D.
+
+00:04:56.220 --> 00:04:58.500
+which subsequently generates the universe.
+
+00:04:59.019 --> 00:05:03.660
+And then from the universe node, we step down into a localized system labeled God3D.
+
+00:05:04.539 --> 00:05:06.180
+Okay, I'm going to stop you right there because
+
+00:05:07.100 --> 00:05:12.299
+mapping theology directly into a code base, I can already hear the skepticism from
+
+00:05:12.299 --> 00:05:16.900
+developers listening. Like, is this a religious manifesto or is this actually
+
+00:05:16.900 --> 00:05:18.120
+functional architecture?
+
+00:05:18.579 --> 00:05:22.639
+I know, it sounds super esoteric, but it is deeply functional.
+
+00:05:23.400 --> 00:05:27.299
+The author is using these terms to describe the cognitive evolution of the system,
+
+00:05:27.299 --> 00:05:32.700
+like moving from purely abstract four-dimensional intent down into executable
+
+00:05:32.700 --> 00:05:37.649
+state. Right. Because from that God 3D node, the system branches into cognitive
+
+00:05:37.649 --> 00:05:40.649
+functions that look much more like traditional computer science.
+
+00:05:40.979 --> 00:05:46.099
+Yeah, the diagram shows a node for evaluate and that feeds into logic and propagate.
+
+00:05:46.569 --> 00:05:48.789
+Right, and logic flows into proof.
+
+00:05:49.439 --> 00:05:53.700
+But here is where the philosophical abstraction violently collides with raw
+
+00:05:53.700 --> 00:05:55.320
+hardware. Oh, this is the crazy part.
+
+00:05:55.649 --> 00:06:00.869
+Yeah, the proof node flows directly with no intermediary steps into NAND,
+
+00:06:01.099 --> 00:06:03.870
+and Knorr. the fundamental logic gates.
+
+00:06:04.289 --> 00:06:08.829
+Like NAND, where the output is false only if all inputs are true, and NOR,
+
+00:06:08.829 --> 00:06:11.010
+where the output is true only if all inputs are false.
+
+00:06:11.010 --> 00:06:14.510
+I mean, these are the absolute bedrock of all computing.
+
+00:06:14.710 --> 00:06:19.039
+Exactly. The architecture is drawing a literal line from this multi-dimensional
+
+00:06:19.039 --> 00:06:24.279
+concept of divinity down through logical proof directly into the physical states of
+
+00:06:24.279 --> 00:06:27.239
+NAND and NOR gates. That is just wild to me.
+
+00:06:27.239 --> 00:06:30.599
+In parallel to that, the propagate node flows into state.
+
+00:06:30.920 --> 00:06:35.879
+It's literally translating ontology into geometry and executable hardware state.
+
+00:06:36.079 --> 00:06:40.179
+So it's treating those logic gates as like the subatomic particles of a new
+
+00:06:40.179 --> 00:06:45.520
+universe. Basically, yes. And within that universe, the sources outline an AI agent
+
+00:06:45.520 --> 00:06:50.500
+framework. The system possesses this cognitive core housing a belief state,
+
+00:06:50.500 --> 00:06:53.899
+a planner, an action selector, and a learning module.
+
+00:06:53.899 --> 00:06:57.760
+Yeah. And this interacts with memory systems like a knowledge base and goal
+
+00:06:57.760 --> 00:07:02.219
+repository, all interacting with the environment via sensors and actuators.
+
+00:07:06.000 --> 00:07:08.779
+that implements these diverse functional nodes.
+
+00:07:08.779 --> 00:07:13.280
+So we see a messenger, ledger, social network, marketplace, university,
+
+00:07:13.280 --> 00:07:15.599
+and blockchain RPC. Right. It's a whole society.
+
+00:07:16.300 --> 00:07:19.920
+Exactly. And they're meticulously divided into private networks protected by
+
+00:07:19.920 --> 00:07:24.159
+cryptographic keys, shared networks operating on shared signatures,
+
+00:07:24.159 --> 00:07:26.299
+and public posted networks.
+
+00:07:26.469 --> 00:07:30.209
+So a quick clarification for anyone picturing a standard AI flowchart here,
+
+00:07:30.209 --> 00:07:33.390
+because when you hear action selector or belief state,
+
+00:07:33.390 --> 00:07:37.490
+you might naturally visualize the architecture for like a customer service chatbot.
+
+00:07:37.589 --> 00:07:41.329
+Oh, sure. Software running on top of Python, running on top of Windows,
+
+00:07:41.329 --> 00:07:42.930
+running on hardware. Exactly.
+
+00:07:42.930 --> 00:07:48.109
+But the source materials explicitly include SVG files titled Difference DNA RNA.
+
+00:07:48.489 --> 00:07:50.649
+They aren't building a chatbot on top of an OS.
+
+00:07:50.889 --> 00:07:53.289
+No, the flowchart is the hardware.
+
+00:07:53.490 --> 00:07:56.890
+In a standard setup, the AI is this layer of abstraction far,
+
+00:07:56.890 --> 00:07:58.509
+far removed from the silicon.
+
+00:07:58.959 --> 00:08:04.359
+But here, the logical operators, the vertices, indices, edges, the NAND gates,
+
+00:08:04.359 --> 00:08:06.620
+they are the physics of the environment.
+
+00:08:06.620 --> 00:08:11.060
+Right. So when the flowchart maps a concept like Genesis 3D directly into these
+
+00:08:11.060 --> 00:08:16.000
+structures, it is defining the absolute causal boundaries of that light cone we
+
+00:08:16.000 --> 00:08:20.870
+discussed earlier. Okay, so if you are building a universe where the logic gates are
+
+00:08:20.870 --> 00:08:25.010
+the actual physical laws, you desperately need a foundational fabric,
+
+00:08:25.010 --> 00:08:27.149
+a canvas for this universe.
+
+00:08:27.150 --> 00:08:31.970
+Which brings us to the 65,536-bit imprint. Yes.
+
+00:08:32.239 --> 00:08:36.560
+So we zoom in from the vast theological architecture down to the microscopic
+
+00:08:36.560 --> 00:08:40.750
+foundation. Because a universe requires a specific,
+
+00:08:40.750 --> 00:08:43.209
+finite state space to exist.
+
+00:08:43.719 --> 00:08:49.540
+and the foundational unit here is a 16-bit word right and 2 to the power of 16 is
+
+00:08:49.540 --> 00:08:54.929
+65 536 which creates a contiguous logical space of exactly
+
+00:08:54.929 --> 00:08:58.229
+65,536 addresses.
+
+00:08:58.379 --> 00:09:01.939
+The sources refer to this 65,536-bit card,
+
+00:09:01.939 --> 00:09:06.280
+which is exactly 6,486 bytes, by the way,
+
+00:09:06.280 --> 00:09:10.199
+as the complete logical imprint of any computational environment.
+
+00:09:10.479 --> 00:09:12.260
+See, this is where I struggled initially.
+
+00:09:12.759 --> 00:09:18.200
+How does a single block of roughly six and a half kilobytes represent an entire
+
+00:09:18.200 --> 00:09:20.160
+environment? It's all about how you use it.
+
+00:09:20.859 --> 00:09:25.240
+And more bizarrely, the documentation explicitly outlaws basic arithmetic.
+
+00:09:25.339 --> 00:09:27.820
+Like they don't use addition. They don't use multiplication.
+
+00:09:28.080 --> 00:09:30.920
+Right. They reject arithmetic entirely at the foundational layer.
+
+00:09:31.569 --> 00:09:36.850
+The system relies purely on bitwise logic, specifically XOR and XNOR operations.
+
+00:09:36.850 --> 00:09:40.670
+But how can a computer even function without, you know, 1 plus 1?
+
+00:09:40.670 --> 00:09:42.889
+That sounds incredibly inefficient.
+
+00:09:42.889 --> 00:09:46.190
+Why deliberately handicap the system by removing addition?
+
+00:09:46.490 --> 00:09:50.710
+Well, it isn't a handicap. It is a strict requirement for topological integrity.
+
+00:09:51.079 --> 00:09:55.340
+OK. If you want to maintain a perfect deterministic causal structure,
+
+00:09:55.340 --> 00:09:59.679
+that light cone, you must preserve the mathematical distance between two points
+
+00:10:00.000 --> 00:10:01.699
+perfectly at all times.
+
+00:10:01.780 --> 00:10:05.280
+In binary systems, we measure distance using the Hamming distance.
+
+00:10:05.280 --> 00:10:08.519
+Which is simply the number of bits that differ between two values.
+
+00:10:08.720 --> 00:10:14.260
+Right. Right. Like if I have 0000 and 0001, the distance is 1.
+
+00:10:14.260 --> 00:10:19.299
+If I have 0000 and 0011, the distance is 2.
+
+00:10:19.299 --> 00:10:23.360
+Exactly. Okay. And the mathematical proofs in the sources demonstrate that this
+
+00:10:23.360 --> 00:10:26.139
+Hamming distance is perfectly preserved
+
+00:10:30.000 --> 00:10:35.000
+The populations in counts, what they denote as C, parentheses 16, K,
+
+00:10:35.000 --> 00:10:38.740
+they remain entirely intact. An addition just ruins that?
+
+00:10:38.740 --> 00:10:43.369
+Completely. Because imagine using edition modulo 2 to the 16th.
+
+00:10:43.999 --> 00:10:47.299
+If you add one to a binary string that ends in a bunch of ones,
+
+00:10:47.299 --> 00:10:50.760
+the carryover bits cascade down the line and they flip multiple bits.
+
+00:10:51.119 --> 00:10:54.580
+Oh, right. So the distance between state zero and state one is one.
+
+00:10:55.019 --> 00:10:58.280
+But the topological distance between state one and state two could suddenly be
+
+00:10:58.280 --> 00:11:00.339
+massive because of all those carryovers.
+
+00:11:01.349 --> 00:11:05.109
+Addition warps the space, it bends the geometry,
+
+00:11:05.580 --> 00:11:08.980
+whereas XOR keeps the mathematical space perfectly flat and consistent.
+
+00:11:09.139 --> 00:11:14.880
+Wow. Okay. So if I can try an analogy here, using addition is kind of like trying to
+
+00:11:14.880 --> 00:11:19.100
+measure the distance between two people by laying down a rigid wooden ruler.
+
+00:11:19.439 --> 00:11:23.160
+Depending on the terrain, the ruler might snap or bend and it distorts the
+
+00:11:23.160 --> 00:11:25.160
+measurement. That's a great way to think about it.
+
+00:11:25.320 --> 00:11:29.640
+But calculating distance with XOR is like looking at the DNA of those two people.
+
+00:11:30.029 --> 00:11:32.309
+and counting exactly how many genes they share.
+
+00:11:32.309 --> 00:11:35.830
+It doesn't matter where they are physically standing, their topological relationship
+
+00:11:35.830 --> 00:11:40.139
+remains absolute. That is a remarkably accurate way to visualize it, yeah.
+
+00:11:40.139 --> 00:11:43.259
+It's a topological calculation, not an arithmetic one.
+
+00:11:43.889 --> 00:11:47.509
+And because of this strict adherence to XOR logic,
+
+00:11:47.509 --> 00:11:51.409
+the system exhibits dual representation. Meaning what exactly?
+
+00:11:51.669 --> 00:11:57.389
+Like the hexadecimal value 0x0 through 0xf will always present to the
+
+00:11:57.389 --> 00:12:00.489
+user as 0x00 through 0xff.
+
+00:12:00.870 --> 00:12:04.260
+The unit always exists in a paired basis. Right.
+
+00:12:04.260 --> 00:12:08.840
+And the sources mentioned that XNOR and XOR act as an ECC,
+
+00:12:08.840 --> 00:12:12.500
+like an error correction code parity check for the entire buffer.
+
+00:12:12.500 --> 00:12:16.879
+Exactly. Every single operation acts as its own proof of integrity.
+
+00:12:17.080 --> 00:12:21.460
+But the most staggering implication of this flat topology is something the author
+
+00:12:21.460 --> 00:12:24.540
+terms mnemonic holographic projection.
+
+00:12:24.769 --> 00:12:26.389
+Okay, let's translate that for a second.
+
+00:12:26.390 --> 00:12:30.569
+A gnomon is, well, typically the part of a sundial that casts the shadow.
+
+00:12:30.630 --> 00:12:34.650
+But in geometry, a gnomon is a shape that, when added to a figure,
+
+00:12:34.650 --> 00:12:36.769
+yields another figure similar to the original.
+
+00:12:36.769 --> 00:12:38.870
+Right, like a fractal-like self-similarity.
+
+00:12:39.269 --> 00:12:42.589
+Yeah, so when you apply that to a holographic projection in this codebase,
+
+00:12:42.589 --> 00:12:43.309
+what does that mean?
+
+00:12:43.659 --> 00:12:48.199
+The math asserts that every single buffer natively holds the exact same topological
+
+00:12:48.199 --> 00:12:52.899
+arrangement. Because the space is flat and governed only by XOR difference,
+
+00:12:52.899 --> 00:12:57.960
+if you deeply fundamentally understand the geometry of one single 65
+
+00:12:57.960 --> 00:13:03.780
+,536-bit blob, you possess the map for the entire scaled metaverse.
+
+00:13:03.839 --> 00:13:06.300
+The part contains the whole. Yes.
+
+00:13:06.509 --> 00:13:09.449
+The DNA contains the blueprint for the entire organism.
+
+00:13:09.779 --> 00:13:11.560
+Okay, so we have our physical space.
+
+00:13:11.560 --> 00:13:16.819
+We have 65,536 bits acting as this static
+
+00:13:16.819 --> 00:13:21.399
+fabric of reality. But a static universe is a dead universe.
+
+00:13:21.440 --> 00:13:22.900
+Things have to happen, right?
+
+00:13:22.900 --> 00:13:27.760
+The states must change. What are the laws of motion in this metaverse?
+
+00:13:27.760 --> 00:13:30.339
+If I drop an apple, how does it actually fall?
+
+00:13:30.649 --> 00:13:34.270
+Well, causality and time are governed by what the math calls the Delta Law.
+
+00:13:34.659 --> 00:13:38.419
+or the atomic kernel. This is really the engine of the universe.
+
+00:13:39.000 --> 00:13:43.900
+And the visual proofs and those Caulk theorems break down the exact equation for
+
+00:13:43.900 --> 00:13:45.780
+this kernel. It's defined as...
+
+00:13:46.509 --> 00:13:51.770
+L of P equals rot L1, XOR rot L3, XOR rot L14.
+
+00:13:51.790 --> 00:13:53.589
+Right. So let's break down the mechanics of that.
+
+00:13:53.879 --> 00:13:57.680
+The XOR symbol denotes the exclusive OR operation.
+
+00:13:58.540 --> 00:14:00.299
+Rot L stands for Rotate Left.
+
+00:14:00.899 --> 00:14:06.159
+And the rot L14 on a 16-bit word is mathematically equivalent to rot R2.
+
+00:14:06.719 --> 00:14:08.580
+Rotate right by two. But...
+
+00:14:08.769 --> 00:14:12.730
+Wait, why are we rotating instead of shifting?
+
+00:14:12.730 --> 00:14:15.969
+Standard bit shifting is incredibly common in programming.
+
+00:14:15.969 --> 00:14:21.680
+True. But if you shift bits to the left, the leftmost bit literally falls off the
+
+00:14:21.680 --> 00:14:25.700
+edge into oblivion. and a zero is just inserted on the right, you lose information.
+
+00:14:26.349 --> 00:14:29.629
+Ah, okay. And this universe is a closed causal loop.
+
+00:14:29.649 --> 00:14:34.669
+Nothing can be lost. Bitwise Rotation takes the bit that falls off the left edge and
+
+00:14:34.669 --> 00:14:36.669
+feeds it directly back into the right edge.
+
+00:14:37.230 --> 00:14:39.570
+The exact population of ones and zeros is preserved.
+
+00:14:39.990 --> 00:14:43.870
+So to apply the law of motion to a single state, you take its 16-bit word,
+
+00:14:43.870 --> 00:14:48.130
+make a copy rotated left by 1, make a copy rotated left by 3,
+
+00:14:48.130 --> 00:14:50.389
+and a copy rotated right by 2.
+
+00:14:50.759 --> 00:14:53.359
+then you just XOR all those copies together.
+
+00:14:53.829 --> 00:14:56.430
+That constitutes the linear part of the law, yes.
+
+00:14:56.430 --> 00:14:58.749
+But there is a second half to the delta step.
+
+00:14:59.229 --> 00:14:59.969
+K,C.
+
+00:14:59.969 --> 00:14:59.969
+(Free users can only transcribe the first 30 minutes. Upgrade to re-transcribe the full file.)
+
+00:14:59.969 --> 00:14:59.969
+(Transcribed by UniScribe (https://www.uniscribe.co). Upgrade to remove this message.)
+

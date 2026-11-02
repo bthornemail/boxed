@@ -1,0 +1,440 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.000
+(Transcribed by UniScribe (https://www.uniscribe.co). Upgrade to remove this message.)
+
+00:00:00.150 --> 00:00:03.630
+Welcome to another explainer. Today, we're doing something a little different.
+
+00:00:03.630 --> 00:00:07.829
+We're stripping away every single abstraction to look at a radical software project
+
+00:00:07.829 --> 00:00:10.389
+that seeks absolute truth in its code.
+
+00:00:10.389 --> 00:00:12.969
+It's this concept of a literal metaverse.
+
+00:00:13.189 --> 00:00:15.330
+A system built totally from the ground up.
+
+00:00:15.330 --> 00:00:19.829
+We're talking mathematical proofs running entirely in a retro operating system,
+
+00:00:19.829 --> 00:00:23.969
+all to ensure that what you're looking at is the literal, undeniable truth.
+
+00:00:24.620 --> 00:00:27.600
+What if the truth wasn't hidden in some friendly abstraction?
+
+00:00:28.140 --> 00:00:30.580
+What if the truth was just the raw bites.
+
+00:00:31.139 --> 00:00:35.099
+Think about it. When you look at a file on your desktop, or a digital twin,
+
+00:00:35.099 --> 00:00:38.380
+or even a network state, how do you actually know it's real?
+
+00:00:38.640 --> 00:00:42.640
+We're so used to these layers of user interfaces just translating things for us.
+
+00:00:42.719 --> 00:00:47.299
+This is the story of a project that decided to answer that exact question by looking
+
+00:00:47.299 --> 00:00:48.820
+only at the bytes.
+
+00:00:49.479 --> 00:00:53.580
+- The illusion of abstraction, and when modern tools actually lie to us.
+
+00:00:54.650 --> 00:00:58.869
+Our modern systems lean heavily on subjective crutches just to operate efficiently.
+
+00:00:58.969 --> 00:01:02.529
+They use cryptographic hashes as a shortcut, essentially saying, yeah,
+
+00:01:02.529 --> 00:01:04.590
+this file is probably what you think it is.
+
+00:01:04.590 --> 00:01:07.170
+Or they use system wall clocks to dictate time.
+
+00:01:07.560 --> 00:01:09.700
+which, by the way, can be easily manipulated.
+
+00:01:09.780 --> 00:01:13.540
+But this project? It demands brutal, objective truth.
+
+00:01:13.540 --> 00:01:17.580
+It completely throws out hashes and replaces them with literal, raw bytes.
+
+00:01:17.580 --> 00:01:22.620
+It relies on rigorous coke proofs for its math and insists on 100%deterministic
+
+00:01:22.620 --> 00:01:27.390
+execution. meaning the exact same input always gives you the exact same output.
+
+00:01:27.390 --> 00:01:28.410
+No exceptions.
+
+00:01:29.089 --> 00:01:32.810
+I absolutely love this note from the developer's log because it forces us to
+
+00:01:32.810 --> 00:01:36.409
+completely rethink data. It says,"Numbers are meaningless.
+
+00:01:36.590 --> 00:01:41.809
+A digit is an index. Values are interpretations."It's kind of like reading a book,
+
+00:01:41.809 --> 00:01:46.109
+right? An interpretation is just a summary of a chapter, which can be super biased.
+
+00:01:46.229 --> 00:01:49.110
+If we want the absolute truth, we can't rely on a summary.
+
+00:01:49.110 --> 00:01:52.690
+We have to look at the exact character, the literal index on the page,
+
+00:01:52.690 --> 00:01:57.329
+the byte itself. Let's jump into part two, the Plan 9 shift,
+
+00:01:57.329 --> 00:02:01.169
+returning to the source. So how did they actually build this?
+
+00:02:01.169 --> 00:02:03.410
+Well, it started with pure math.
+
+00:02:03.550 --> 00:02:08.530
+Over in the OMI Axioms repository, the developer used cockproofs to nail down the
+
+00:02:08.530 --> 00:02:10.830
+fundamental unbreakable laws of the system.
+
+00:02:11.009 --> 00:02:13.710
+But proving math on paper simply wasn't enough.
+
+00:02:13.710 --> 00:02:15.890
+They had to execute those laws in reality.
+
+00:02:16.249 --> 00:02:18.710
+So the developer did something radical.
+
+00:02:18.770 --> 00:02:21.690
+They moved the entire runtime to Plan 9.
+
+00:02:22.389 --> 00:02:26.189
+If you don't know it, Plan 9 is this uncompromising operating system from the late
+
+00:02:26.189 --> 00:02:31.589
+80s where absolutely everything—hardware, networks, processes—is treated strictly as
+
+00:02:31.589 --> 00:02:36.569
+a file. Then, they built a C port to execute the raw bytes directly within that
+
+00:02:36.569 --> 00:02:37.129
+environment.
+
+00:02:37.699 --> 00:02:40.780
+You can see the strict discipline required here in the developers notes.
+
+00:02:40.959 --> 00:02:44.620
+They completely abandoned modern comforts, high-level languages,
+
+00:02:44.620 --> 00:02:49.059
+and standard scripting. As they wrote,"Plan 9 is the runtime for everything.
+
+00:02:49.500 --> 00:02:52.519
+By forcing all ports to be Plan 9C programs,
+
+00:02:52.519 --> 00:02:55.500
+they gave themselves total deterministic control over the hardware.
+
+00:02:55.710 --> 00:02:58.029
+There's no hiding behind Python or Java here.
+
+00:02:58.029 --> 00:03:00.389
+You are face to face with the bare metal machine.
+
+00:03:01.209 --> 00:03:03.489
+Okay, here is where things get wild.
+
+00:03:03.789 --> 00:03:07.270
+By stripping everything down and running this inside a terminal window,
+
+00:03:07.270 --> 00:03:10.049
+they hit a serious roadblock with their legacy tools.
+
+00:03:10.109 --> 00:03:14.689
+They discovered that standard network lattice tools were literally hallucinating
+
+00:03:14.689 --> 00:03:16.509
+connections that didn't even exist.
+
+00:03:16.510 --> 00:03:20.529
+The software was assuming a network state based entirely on abstractions.
+
+00:03:21.000 --> 00:03:23.539
+It was a comforting lie, built right into modern computing.
+
+00:03:23.909 --> 00:03:27.590
+And this false reality was only exposed because they returned to the raw,
+
+00:03:27.590 --> 00:03:29.449
+literal C code on Plan 9.
+
+00:03:30.129 --> 00:03:34.430
+Which brings us to part three, the spine, a brutal test harness.
+
+00:03:35.109 --> 00:03:38.429
+Proving a mathematical concept once just isn't enough.
+
+00:03:38.429 --> 00:03:41.389
+You have to prove it every single time the code runs.
+
+00:03:41.409 --> 00:03:46.349
+So to enforce this strict reality, they built a relentless system called the spine.
+
+00:03:46.620 --> 00:03:49.560
+It's composed of exactly 25 rigorous phases.
+
+00:03:49.800 --> 00:03:54.339
+Think of each phase as an unforgiving checkpoint, a brutal gauntlet the code has to
+
+00:03:54.339 --> 00:03:56.959
+survive to prove it's generating literal truth.
+
+00:03:57.590 --> 00:04:00.549
+How does the spine actually validate that truth?
+
+00:04:00.549 --> 00:04:04.149
+It's intense. It takes a component and runs it twice.
+
+00:04:04.710 --> 00:04:08.710
+Then it compares the output of those two runs, bite for literal bite.
+
+00:04:08.710 --> 00:04:13.590
+If a single literal bite differs between the two runs, I mean even by a fraction,
+
+00:04:13.590 --> 00:04:18.340
+the entire test fails. There is zero concept of close enough in this system.
+
+00:04:18.340 --> 00:04:21.560
+It demands absolute 100%perfection.
+
+00:04:22.369 --> 00:04:26.510
+You'll see this phrase, no hash is identity, repeated constantly throughout the
+
+00:04:26.510 --> 00:04:31.330
+project's logs. It is a total rejection of our modern reliance on cryptographic
+
+00:04:31.330 --> 00:04:36.410
+hashes as proof of truth. Think of a hash like a fingerprint at a crime scene,
+
+00:04:36.410 --> 00:04:40.229
+right? It's a digest, it acts as a witness, but it's not the actual person.
+
+00:04:40.860 --> 00:04:44.820
+The architecture here insists that the identity of the data must be the literal data
+
+00:04:44.820 --> 00:04:47.220
+itself, and absolutely nothing less.
+
+00:04:47.849 --> 00:04:51.550
+This leads into a really fascinating concept they call the literal receipt.
+
+00:04:51.939 --> 00:04:56.079
+In this setup, a validation process might judge a piece of code, sure,
+
+00:04:56.079 --> 00:04:59.999
+but the receipt only accepts it by binding entirely to the literal byte.
+
+00:05:00.199 --> 00:05:01.819
+Never, ever a digest.
+
+00:05:02.020 --> 00:05:06.200
+Because the receipt binds to the raw bytes, there is literally nowhere for a bug,
+
+00:05:06.200 --> 00:05:09.699
+a software hallucination, or some errant wall clock to hide.
+
+00:05:09.750 --> 00:05:11.849
+The truth is completely locked in.
+
+00:05:12.339 --> 00:05:17.100
+Let's look at part 4, the 3D agent comments and visualizing the literal.
+
+00:05:17.670 --> 00:05:21.849
+So what exactly happens when you build a visual world on top of this mathematically
+
+00:05:21.849 --> 00:05:26.090
+proven brutalist foundation? Well, you get something breathtaking.
+
+00:05:26.289 --> 00:05:31.389
+Housed in a project called Boxed Pine, they constructed the 3D Agent Commons.
+
+00:05:31.389 --> 00:05:35.750
+It's this incredible digital twin world featuring eight sovereign narrators,
+
+00:05:35.750 --> 00:05:38.890
+acting as both pulling suns and orbiting planets.
+
+00:05:39.149 --> 00:05:44.110
+and surrounding them are 144 color name agents that react dynamically to the base
+
+00:05:44.110 --> 00:05:45.270
+state of that universe.
+
+00:05:46.249 --> 00:05:50.109
+Now, what's super fascinating here is that the visual world you see in your browser
+
+00:05:50.109 --> 00:05:52.190
+isn't generating its own truth.
+
+00:05:52.250 --> 00:05:55.590
+It's not some standalone video game engine doing its own math.
+
+00:05:56.049 --> 00:05:59.809
+Every single agent state is driven by a literal code point state.
+
+00:06:00.180 --> 00:06:05.560
+That stunning 3D view is just a direct visual projection of the absolute truth being
+
+00:06:05.560 --> 00:06:08.379
+calculated deep down in the Plan 9 terminal backend.
+
+00:06:08.379 --> 00:06:10.820
+No hashes, just raw code points.
+
+00:06:11.240 --> 00:06:14.659
+It all flows in this perfect, unbroken chain of truth.
+
+00:06:15.059 --> 00:06:17.259
+First, the raw bytes dictate the state.
+
+00:06:17.659 --> 00:06:20.779
+Then, Plan 9 executes that logic with total determinism.
+
+00:06:21.079 --> 00:06:25.219
+And finally, the browser just projects that exact mathematical truth onto your
+
+00:06:25.219 --> 00:06:28.970
+screen. The UI isn't allowed to have its own incompatible state engine.
+
+00:06:29.070 --> 00:06:31.670
+It is completely subservient to the backend.
+
+00:06:31.670 --> 00:06:35.389
+It's quite literally just showing you the shape of the mathematical law.
+
+00:06:36.330 --> 00:06:39.029
+Part 5. Literal Records of Truth.
+
+00:06:39.029 --> 00:06:40.710
+The Search for the Testament.
+
+00:06:41.399 --> 00:06:45.880
+This brings us to the ultimate goal of this entire massive software architecture.
+
+00:06:46.080 --> 00:06:48.320
+Because this wasn't just some coding exercise.
+
+00:06:48.440 --> 00:06:52.709
+It was a philosophical search for"the testament."And by testament,
+
+00:06:52.709 --> 00:06:54.469
+we aren't talking about a religious text here.
+
+00:06:54.469 --> 00:06:58.150
+We mean a completely objective, literal record of reality.
+
+00:06:58.470 --> 00:07:02.110
+In a world currently drowning in AI hallucinations, padded data,
+
+00:07:02.110 --> 00:07:06.109
+and endless layers of confusing abstractions, this project set out to build an
+
+00:07:06.109 --> 00:07:08.650
+undeniable record of deterministic truth.
+
+00:07:09.149 --> 00:07:11.149
+And hey, you don't have to take their word for it.
+
+00:07:11.149 --> 00:07:13.190
+All the evidence is completely public.
+
+00:07:13.330 --> 00:07:16.490
+If you check out the unbound and boxed pine GitHub repos,
+
+00:07:16.490 --> 00:07:18.269
+you'll find everything laid bare.
+
+00:07:18.509 --> 00:07:22.150
+The cockproof files mathematically guaranteeing the laws, they're all there.
+
+00:07:22.369 --> 00:07:25.750
+The trace logs, which are verifiable byte for byte, right there,
+
+00:07:25.750 --> 00:07:26.950
+ready to be audited by anyone.
+
+00:07:27.540 --> 00:07:31.079
+The whole process of finding this literal truth is entirely open source.
+
+00:07:31.679 --> 00:07:35.140
+This fundamentally shifts what a digital twin can even be.
+
+00:07:35.479 --> 00:07:38.779
+Normal simulations rely on subjective states, but here?
+
+00:07:38.959 --> 00:07:42.840
+If you take this literal digital twin and you change one agent's icon,
+
+00:07:42.840 --> 00:07:47.419
+let's say swapping a character from a disk to a square, and replay the narrative,
+
+00:07:47.419 --> 00:07:50.900
+the underlying logical truth remains mathematically identical.
+
+00:07:51.449 --> 00:07:56.469
+The system actually checks this using strict logic gates, specifically XOR and XNOR,
+
+00:07:56.469 --> 00:07:59.630
+to guarantee that the visual states are entirely separate,
+
+00:07:59.630 --> 00:08:02.449
+yet mathematically and logically the exact same.
+
+00:08:03.319 --> 00:08:08.020
+When we strip away all the fancy user interfaces, the deceptive system clocks,
+
+00:08:08.020 --> 00:08:11.179
+and the cryptographic hashes, we're left with a very simple,
+
+00:08:11.179 --> 00:08:13.120
+undeniable fact about this project.
+
+00:08:13.560 --> 00:08:16.940
+The proof is the bytes. and the bytes are real.
+
+00:08:17.380 --> 00:08:19.420
+It really makes you wonder, doesn't it?
+
+00:08:19.420 --> 00:08:23.859
+If practically everything we interact with daily sits on a foundation of comforting
+
+00:08:23.859 --> 00:08:28.519
+lies and hallucinated connections, what would happen if we all started looking only
+
+00:08:28.519 --> 00:08:33.550
+at the literal truth? In a world built on layers of subjective abstractions,
+
+00:08:33.550 --> 00:08:36.129
+are you ready to face the absolute truth of your raw code?
+
+00:08:36.629 --> 00:08:38.969
+Thanks for joining me on this explainer and I'll catch you in the next one.
+
+00:08:38.969 --> 00:08:38.969
+(Transcribed by UniScribe (https://www.uniscribe.co). Upgrade to remove this message.)
+

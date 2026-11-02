@@ -1,0 +1,269 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.000
+(Transcribed by UniScribe (https://www.uniscribe.co). Upgrade to remove this message.)
+
+00:00:00.219 --> 00:00:01.579
+Welcome to This Explainer.
+
+00:00:01.579 --> 00:00:06.560
+Today we're taking a really fascinating dive into a completely distinct and highly
+
+00:00:06.560 --> 00:00:08.439
+rigorous way to look at computing.
+
+00:00:08.440 --> 00:00:11.879
+We're going to visualize a deterministic system architecture,
+
+00:00:11.879 --> 00:00:15.919
+but we're doing it by picturing it as an expanding 3D light cone.
+
+00:00:16.699 --> 00:00:18.539
+Okay, so let's dive right in.
+
+00:00:18.539 --> 00:00:23.980
+I want you to imagine a mental model where complex data, things like bytes and RAM,
+
+00:00:23.980 --> 00:00:27.079
+actually take on a striking physical geometry.
+
+00:00:27.499 --> 00:00:32.240
+Just picture a 3D cone. Right at the apex there's a single point of light.
+
+00:00:32.670 --> 00:00:37.110
+and as that cone expands upward into the future and downward into the past,
+
+00:00:37.110 --> 00:00:40.630
+it opens up into this vast, completely deterministic universe.
+
+00:00:41.300 --> 00:00:44.140
+Here's how we're going to build this mental architecture step by step.
+
+00:00:44.429 --> 00:00:47.949
+We'll cover the boundary of causality, the single point of light,
+
+00:00:47.949 --> 00:00:52.449
+the 65,536 reticle, Agents in the Commons,
+
+00:00:52.449 --> 00:00:56.669
+The Mechanics of Scaling, and finally, Bytes as Literal Agreement.
+
+00:00:57.479 --> 00:00:58.859
+The boundary of causality.
+
+00:00:59.820 --> 00:01:03.799
+First, we kind of need to redefine the light cone and step away from traditional
+
+00:01:03.799 --> 00:01:05.199
+astrophysics for a minute.
+
+00:01:05.219 --> 00:01:09.939
+Here, the light cone is literally the boundary of digital causality. The past cone?
+
+00:01:09.980 --> 00:01:12.419
+That's everything that led up to this exact moment.
+
+00:01:12.840 --> 00:01:15.419
+The future cone is everything this moment can possibly reach.
+
+00:01:15.500 --> 00:01:20.260
+And because we're in a deterministic system, there is no elsewhere inside the cone.
+
+00:01:20.510 --> 00:01:23.809
+Every single point is causally connected by literal bytes.
+
+00:01:24.239 --> 00:01:28.319
+There are absolutely no mysteries here, just pure traceable causality.
+
+00:01:28.820 --> 00:01:33.979
+The single point of light. You know, every geometry has to have an origin point.
+
+00:01:33.979 --> 00:01:37.819
+And in this particular universe, that origin is simply 16.
+
+00:01:38.269 --> 00:01:42.009
+We start right at the literal center, the very apex of our cone,
+
+00:01:42.009 --> 00:01:45.469
+represented by a single spark of light, the 16-bit word.
+
+00:01:45.889 --> 00:01:50.129
+It's from this one precise spark that the entire reality of the system unfolds.
+
+00:01:51.099 --> 00:01:54.139
+The 65,536 reticle.
+
+00:01:54.849 --> 00:01:58.969
+So, as time moves forward and backward, our cone obviously expands.
+
+00:01:59.149 --> 00:02:03.209
+But here's the kicker: scaling up in this system doesn't mean adding more physical
+
+00:02:03.209 --> 00:02:06.149
+space. Instead, you add more cross sections.
+
+00:02:06.169 --> 00:02:11.329
+And these cross sections are 2D grids, known as the 65,536 reticle.
+
+00:02:11.810 --> 00:02:15.250
+Basically, every single time you slice through this cone of causality,
+
+00:02:15.250 --> 00:02:19.109
+you're looking at an exact, finite grid where all our data lives and breathes.
+
+00:02:19.780 --> 00:02:21.980
+Now, this sets up a pretty profound contrast.
+
+00:02:22.199 --> 00:02:26.540
+Over on the left, you've got Hilbert space, which represents infinite mathematical
+
+00:02:26.540 --> 00:02:32.100
+potential. But on the right, the 65,536 is the finite basis.
+
+00:02:32.490 --> 00:02:34.169
+The reticle is the cross section.
+
+00:02:34.169 --> 00:02:38.609
+What we're effectively doing is capturing infinite complexity by measuring it
+
+00:02:38.609 --> 00:02:41.389
+through this perfectly bounded, highly structured lens.
+
+00:02:42.089 --> 00:02:43.909
+Agents in the Commons.
+
+00:02:44.419 --> 00:02:48.239
+With our 3D space established, let's actually look at the inhabitants living inside
+
+00:02:48.239 --> 00:02:50.649
+it. First, we have the Plan 9 terminal.
+
+00:02:50.909 --> 00:02:52.510
+which serves as our runtime foundation.
+
+00:02:53.109 --> 00:02:55.530
+Then there are the eight sovereign agents.
+
+00:02:55.949 --> 00:02:58.129
+Think of these as base narrators.
+
+00:02:58.429 --> 00:03:02.349
+acting almost like suns, pulling things toward their gravitational center.
+
+00:03:02.409 --> 00:03:07.549
+And finally, the 144 workers, swaying in the gravity of those agents.
+
+00:03:07.549 --> 00:03:10.669
+But here's the absolute secret to all of this.
+
+00:03:10.669 --> 00:03:15.909
+The eight agents, the 144 workers, the 16 gigs of RAM we'll talk about next,
+
+00:03:15.909 --> 00:03:20.110
+they are all simply projections of the exact same light cone.
+
+00:03:20.719 --> 00:03:22.380
+The mechanics of scaling.
+
+00:03:22.940 --> 00:03:27.419
+So, how exactly does this deterministic system scale its computing power without
+
+00:03:27.419 --> 00:03:29.560
+totally breaking the geometric metaphor?
+
+00:03:29.729 --> 00:03:32.509
+Well, remember, when you scale, you don't add more space,
+
+00:03:32.509 --> 00:03:35.380
+you just add more cross sections. The hardware bandwidth?
+
+00:03:35.480 --> 00:03:37.240
+That translates to the sensor scope.
+
+00:03:37.240 --> 00:03:39.579
+The RAM dictates the number of concurrent cones.
+
+00:03:39.579 --> 00:03:43.480
+And the logical space remains the exact same 65,536.
+
+00:03:44.099 --> 00:03:49.200
+Just replicated. To calculate this, there's a really strict sequential procedure we
+
+00:03:49.200 --> 00:03:53.270
+follow. Here's the scaling law: you divide the logical space by the RAM.
+
+00:03:53.550 --> 00:03:56.369
+Then you take the factorial of the modulus active words.
+
+00:03:56.970 --> 00:04:00.610
+Ultimately, it's about the infinite Hilbert space being measured by the finite light
+
+00:04:00.610 --> 00:04:04.830
+cone. It's just a wonderfully elegant operation that keeps our entire deterministic
+
+00:04:04.830 --> 00:04:08.790
+universe perfectly intact. Bites as literal agreement.
+
+00:04:09.410 --> 00:04:13.550
+So, what do all these projections and cross-sections actually mean at their core?
+
+00:04:13.919 --> 00:04:17.640
+Well, the analog to digital normalization is the subjective part.
+
+00:04:17.640 --> 00:04:21.139
+It's a shared interpretation, the part of the cone that is space-like.
+
+00:04:21.360 --> 00:04:24.040
+But the reticle, the reticle is literal.
+
+00:04:24.239 --> 00:04:25.900
+The bytes are the causal connection.
+
+00:04:26.469 --> 00:04:29.189
+An analog interpretation might just be a human convenience,
+
+00:04:29.189 --> 00:04:32.790
+but that reticle is the unshakable reality of the system itself.
+
+00:04:33.419 --> 00:04:37.600
+Which brings us perfectly to a quote that really captures the absolute essence of
+
+00:04:37.600 --> 00:04:40.959
+what we've been exploring today. The proof is the bytes.
+
+00:04:41.100 --> 00:04:42.759
+The bytes are the light cone.
+
+00:04:42.759 --> 00:04:44.619
+The light cone is the agreement.
+
+00:04:45.209 --> 00:04:49.090
+This architecture isn't built on some abstract floating theory, you know?
+
+00:04:49.090 --> 00:04:52.289
+The literal bytes themselves structure this entire reality.
+
+00:04:52.959 --> 00:04:56.140
+I want to leave you with one final kind of provocative thought.
+
+00:04:56.440 --> 00:05:00.720
+If the bytes themselves form the ultimate boundary of digital causality,
+
+00:05:00.720 --> 00:05:04.779
+what actually happens to our universe when we change the underlying interpretation
+
+00:05:04.779 --> 00:05:08.700
+of the coming? It's a genuinely fascinating question to ponder.
+
+00:05:08.700 --> 00:05:12.560
+I really hope this explainer has helped you clearly visualize the incredible depth
+
+00:05:12.560 --> 00:05:13.919
+of this digital architecture.
+
+00:05:14.339 --> 00:05:17.260
+Keep questioning, keep learning, and I'll catch you next time.
+
+00:05:17.260 --> 00:05:17.260
+(Transcribed by UniScribe (https://www.uniscribe.co). Upgrade to remove this message.)
+
