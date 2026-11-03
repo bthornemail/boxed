@@ -1,0 +1,3620 @@
+1
+00:00:00,000 --> 00:00:06,160
+You know, usually when we talk about a medical diagnosis, there's this expectation of precision,
+
+2
+00:00:06,160 --> 00:00:07,160
+right?
+
+3
+00:00:07,160 --> 00:00:08,160
+Oh, absolutely.
+
+4
+00:00:08,160 --> 00:00:09,160
+It feels like engineering.
+
+5
+00:00:09,160 --> 00:00:14,360
+Like you break your arm, the x-ray shows that jagged white line on the film, and the
+
+6
+00:00:14,360 --> 00:00:17,200
+doctor just points a pen at it and says, you know, there it is.
+
+7
+00:00:17,200 --> 00:00:18,560
+Yeah, it's binary.
+
+8
+00:00:18,560 --> 00:00:20,840
+The bone is broken, or it is not broken.
+
+9
+00:00:20,840 --> 00:00:21,840
+Right.
+
+10
+00:00:21,840 --> 00:00:22,840
+It's clean.
+
+11
+00:00:22,840 --> 00:00:24,360
+And honestly, it's psychologically comforting.
+
+12
+00:00:24,360 --> 00:00:28,440
+I mean, we inherently like things to be visible and easily categorized.
+
+13
+00:00:28,440 --> 00:00:29,680
+We really do.
+
+14
+00:00:29,680 --> 00:00:34,520
+But then you step into the world of, say, quantum mechanics, or abstract mathematics,
+
+15
+00:00:34,520 --> 00:00:38,720
+or, well, the deepest metaphysical questions of human existence.
+
+16
+00:00:38,720 --> 00:00:40,240
+And the x-ray machine breaks.
+
+17
+00:00:40,240 --> 00:00:41,240
+Exactly.
+
+18
+00:00:41,240 --> 00:00:45,360
+So only that diagnostic x-ray machine is just completely broken.
+
+19
+00:00:45,360 --> 00:00:49,760
+We're looking at a diagnostic landscape that is, well, it's murky.
+
+20
+00:00:49,760 --> 00:00:51,520
+Murky is a good word for it.
+
+21
+00:00:51,520 --> 00:00:56,020
+And today, we are taking that broken x-ray machine and pointing it directly at the ultimate
+
+22
+00:00:56,020 --> 00:00:59,240
+catch 22, which is, does God exist?
+
+23
+00:00:59,640 --> 00:01:03,720
+It is the absolute definition of diagnostic muddy waters.
+
+24
+00:01:03,720 --> 00:01:08,760
+And the materials we are working with today to explore this question, well, they are unlike
+
+25
+00:01:08,760 --> 00:01:10,840
+anything we usually look at.
+
+26
+00:01:10,840 --> 00:01:12,000
+That is an understatement.
+
+27
+00:01:12,000 --> 00:01:15,600
+I mean, if you're listening to this and expecting a standard philosophical debate, just
+
+28
+00:01:15,600 --> 00:01:17,600
+throw that expectation out the window right now.
+
+29
+00:01:17,600 --> 00:01:18,600
+Yeah, completely.
+
+30
+00:01:18,600 --> 00:01:23,920
+Our stack of sources today consists of this highly unique set of computational theology
+
+31
+00:01:23,920 --> 00:01:24,920
+records.
+
+32
+00:01:24,920 --> 00:01:26,120
+Known as the eye series.
+
+33
+00:01:26,120 --> 00:01:27,120
+Right.
+
+34
+00:01:27,120 --> 00:01:28,120
+The eye series.
+
+35
+00:01:28,480 --> 00:01:33,400
+We have a collection of philosophical transcripts formatted as VTT files, which I have to point
+
+36
+00:01:33,400 --> 00:01:36,080
+out is an incredibly deliberate choice by the authors.
+
+37
+00:01:36,080 --> 00:01:40,400
+Yeah, I was actually wondering about that because VTT stands for video text tracks, right?
+
+38
+00:01:40,400 --> 00:01:41,400
+Exactly.
+
+39
+00:01:41,400 --> 00:01:43,760
+It's the standard file format for closed captions on videos.
+
+40
+00:01:43,760 --> 00:01:47,160
+So why write a philosophical treatise in the format of subtitles?
+
+41
+00:01:47,160 --> 00:01:52,240
+I mean, that seems so specific because it frames the entire text as a caption to a reality
+
+42
+00:01:52,240 --> 00:01:56,560
+we are watching, but perhaps, you know, can't fully hear or understand on our own.
+
+43
+00:01:56,560 --> 00:01:57,560
+Oh, wow.
+
+44
+00:01:57,560 --> 00:01:58,840
+Then overlay.
+
+45
+00:01:58,840 --> 00:02:03,240
+And alongside those VTT files, we have these eye series records, which are literally written
+
+46
+00:02:03,240 --> 00:02:04,240
+in code.
+
+47
+00:02:04,240 --> 00:02:05,920
+Yeah, I saw TypeScript files in there.
+
+48
+00:02:05,920 --> 00:02:08,880
+TypeScript files, data assertions, mathematical proofs.
+
+49
+00:02:08,880 --> 00:02:14,120
+I mean, they attempt to process abstract theological concepts through this rigorous binary
+
+50
+00:02:14,120 --> 00:02:17,320
+lens of discrete mathematics and finite geometry.
+
+51
+00:02:17,320 --> 00:02:21,280
+And TypeScript, just for those who might not code, it forces strict type checking before
+
+52
+00:02:21,280 --> 00:02:22,280
+the code even runs.
+
+53
+00:02:22,280 --> 00:02:23,280
+Right.
+
+54
+00:02:23,280 --> 00:02:24,320
+It won't compile if there's a logic error.
+
+55
+00:02:24,320 --> 00:02:28,440
+So applying that to theology means the authors are trying to force metaphysical ideas to
+
+56
+00:02:28,440 --> 00:02:33,920
+compile mathematically without throwing logic errors, which is just wild to think about.
+
+57
+00:02:33,920 --> 00:02:36,080
+It's incredibly ambitious.
+
+58
+00:02:36,080 --> 00:02:40,760
+And just to be crystal clear, a front, you know, for everyone listening to this deep dive,
+
+59
+00:02:40,760 --> 00:02:45,560
+these sources blend theology, computer science, and philosophical assertions who do a very
+
+60
+00:02:45,560 --> 00:02:46,560
+dense framework.
+
+61
+00:02:46,560 --> 00:02:47,560
+Very dense.
+
+62
+00:02:47,560 --> 00:02:52,080
+And we are just neutrally exploring the architecture of these ideas exactly as they are presented
+
+63
+00:02:52,080 --> 00:02:53,080
+in the text.
+
+64
+00:02:53,080 --> 00:02:57,120
+And here to endorse any specific religious or secular or political viewpoint.
+
+65
+00:02:57,120 --> 00:02:58,120
+Exactly.
+
+66
+00:02:58,120 --> 00:03:02,640
+We are just impartial guides walking you through the code, the geometry, and the text.
+
+67
+00:03:02,640 --> 00:03:04,120
+We're just looking at the architecture.
+
+68
+00:03:04,120 --> 00:03:05,560
+It's an exploration of a system.
+
+69
+00:03:05,560 --> 00:03:06,560
+Okay.
+
+70
+00:03:06,560 --> 00:03:09,920
+And to understand the system, we really have to start where the sources start, which is
+
+71
+00:03:09,920 --> 00:03:11,880
+with the concept of the threshold.
+
+72
+00:03:11,880 --> 00:03:12,880
+The threshold.
+
+73
+00:03:12,880 --> 00:03:13,880
+Right.
+
+74
+00:03:13,880 --> 00:03:18,600
+And specifically the myths humanity builds when we are frankly terrified of crossing it.
+
+75
+00:03:18,600 --> 00:03:19,600
+Yeah.
+
+76
+00:03:19,600 --> 00:03:25,360
+The title canon slash AGI opens with this and it poses this incredibly profound observation
+
+77
+00:03:25,360 --> 00:03:27,960
+about human nature and technological progress.
+
+78
+00:03:27,960 --> 00:03:29,440
+It's a great framing device.
+
+79
+00:03:29,440 --> 00:03:35,480
+It basically argues that every time a generation approaches a massive technological threshold,
+
+80
+00:03:35,480 --> 00:03:39,320
+we invent a myth to survive the psychological fear of crossing it.
+
+81
+00:03:39,320 --> 00:03:42,480
+It provides fantastic historical context for this.
+
+82
+00:03:42,480 --> 00:03:45,880
+I mean, think about when humanity first mastered fire.
+
+83
+00:03:45,880 --> 00:03:50,040
+We didn't just accept it as a chemical reaction of heat and oxygen.
+
+84
+00:03:50,040 --> 00:03:53,320
+We imagined per metheist stealing it from the gods.
+
+85
+00:03:53,320 --> 00:03:54,320
+Oh, sure.
+
+86
+00:03:54,320 --> 00:03:57,680
+We had to mythologize it because the power was just too overwhelming.
+
+87
+00:03:57,680 --> 00:03:59,440
+Or written language.
+
+88
+00:03:59,440 --> 00:04:02,640
+I remember reading that Socrates hated the invention of writing.
+
+89
+00:04:02,640 --> 00:04:03,640
+Oh, really?
+
+90
+00:04:03,640 --> 00:04:04,640
+Yeah.
+
+91
+00:04:04,640 --> 00:04:08,080
+He had this deep-seated fear that we would lose our memory that our oral traditions would
+
+92
+00:04:08,080 --> 00:04:11,440
+die out and writing would just create the illusion of wisdom.
+
+93
+00:04:11,440 --> 00:04:12,680
+Precisely.
+
+94
+00:04:12,680 --> 00:04:14,000
+We panic at thresholds.
+
+95
+00:04:14,000 --> 00:04:18,200
+And now the text points out we are at a new threshold.
+
+96
+00:04:18,200 --> 00:04:21,600
+We are building artificial general intelligence, AGI.
+
+97
+00:04:21,600 --> 00:04:22,600
+Right.
+
+98
+00:04:22,600 --> 00:04:26,920
+Machines are learning to speak to process to reason.
+
+99
+00:04:26,920 --> 00:04:31,440
+And just like with fire and writing, we are standing at the edge, terrified.
+
+100
+00:04:31,440 --> 00:04:33,200
+So what do we do?
+
+101
+00:04:33,200 --> 00:04:35,400
+We start seven in gods and monsters.
+
+102
+00:04:35,400 --> 00:04:36,400
+Exactly.
+
+103
+00:04:36,400 --> 00:04:42,120
+We project our ultimate fears of destruction and our ultimate hopes of salvation onto silicon
+
+104
+00:04:42,120 --> 00:04:43,400
+and code.
+
+105
+00:04:43,400 --> 00:04:47,320
+We call it a digital god or the apocalypse.
+
+106
+00:04:47,320 --> 00:04:49,560
+But the source immediately grounds this panic.
+
+107
+00:04:49,560 --> 00:04:53,280
+It explicitly states that AGI is neither a god nor a monster.
+
+108
+00:04:53,280 --> 00:04:56,840
+The text says intelligence does not imply sovereignty.
+
+109
+00:04:56,840 --> 00:04:58,400
+That is such a crucial distinction.
+
+110
+00:04:58,400 --> 00:05:01,600
+Are we often conflate being smart with being in charge?
+
+111
+00:05:01,600 --> 00:05:02,600
+We do.
+
+112
+00:05:02,600 --> 00:05:07,960
+But the source argues that a tool can easily surpass us in its specific domain without ruling
+
+113
+00:05:07,960 --> 00:05:08,960
+us.
+
+114
+00:05:08,960 --> 00:05:11,680
+My absolute favorite analogy in the text was this.
+
+115
+00:05:11,680 --> 00:05:15,200
+It says, a calculator obviously surpasses us in arithmetic.
+
+116
+00:05:15,200 --> 00:05:16,200
+Sure.
+
+117
+00:05:16,200 --> 00:05:19,040
+A compass surpasses us in navigation.
+
+118
+00:05:19,040 --> 00:05:22,040
+A telescope surpasses us in sight.
+
+119
+00:05:22,040 --> 00:05:24,440
+But we don't worship a compass.
+
+120
+00:05:24,440 --> 00:05:26,640
+And a calculator doesn't rule society.
+
+121
+00:05:26,640 --> 00:05:27,640
+Right.
+
+122
+00:05:27,640 --> 00:05:29,520
+They are just tools.
+
+123
+00:05:29,520 --> 00:05:34,640
+The source is saying, AGI is just another tool that surpasses us in pattern recognition
+
+124
+00:05:34,640 --> 00:05:36,280
+and language processing.
+
+125
+00:05:36,280 --> 00:05:37,520
+It's not a deity.
+
+126
+00:05:37,520 --> 00:05:42,880
+And what's fascinating here is how the text uses this modern anxiety about AGI as a bridge.
+
+127
+00:05:42,880 --> 00:05:44,160
+A bridge to what?
+
+128
+00:05:44,160 --> 00:05:49,200
+To talk about the ultimate god or monster question, which is the existence of an absolute god.
+
+129
+00:05:49,200 --> 00:05:50,200
+Oh, I see.
+
+130
+00:05:50,200 --> 00:05:55,520
+It uses our fear of creating a synthetic god to analyze how we process the idea of an
+
+131
+00:05:55,520 --> 00:05:59,680
+eternal one, which brings us directly to record I-172.
+
+132
+00:05:59,680 --> 00:06:00,680
+Right.
+
+133
+00:06:00,680 --> 00:06:03,760
+The one that tackles the catch-22 of existence.
+
+134
+00:06:03,760 --> 00:06:05,440
+And this is where the math starts to get heavy.
+
+135
+00:06:05,440 --> 00:06:06,920
+It does get heavy.
+
+136
+00:06:06,920 --> 00:06:11,600
+But I-172 posits that asking the question, does god exist?
+
+137
+00:06:11,600 --> 00:06:13,600
+Is a fundamentally flawed logic loop?
+
+138
+00:06:13,600 --> 00:06:14,600
+Yes.
+
+139
+00:06:14,600 --> 00:06:15,600
+And why?
+
+140
+00:06:15,600 --> 00:06:17,400
+Because the answer you get is time dependent.
+
+141
+00:06:17,400 --> 00:06:18,400
+Okay.
+
+142
+00:06:18,400 --> 00:06:21,960
+Let's break down what time dependent means in this context because it's vital.
+
+143
+00:06:21,960 --> 00:06:22,960
+Please do.
+
+144
+00:06:22,960 --> 00:06:27,840
+In mathematics and physics, if a variable is time dependent, its value changes based
+
+145
+00:06:27,840 --> 00:06:29,600
+on the exact moment you measure it.
+
+146
+00:06:29,600 --> 00:06:30,600
+Okay.
+
+147
+00:06:30,600 --> 00:06:31,600
+So it's not static.
+
+148
+00:06:31,600 --> 00:06:32,600
+Right.
+
+149
+00:06:32,600 --> 00:06:38,200
+So if you ask the universe, does god exist at time zero, what's called t equals zero?
+
+150
+00:06:38,200 --> 00:06:41,240
+The mathematical state of the system might yield a yes.
+
+151
+00:06:41,240 --> 00:06:42,240
+A yes.
+
+152
+00:06:42,240 --> 00:06:47,840
+But if you ask the exact same question at time one, t equals one, the state of the system
+
+153
+00:06:47,840 --> 00:06:50,280
+has shifted and the answer might be no.
+
+154
+00:06:50,280 --> 00:06:53,080
+The text compares this to a derivative in calculus.
+
+155
+00:06:53,080 --> 00:06:57,160
+And look, full disclosure for you and everyone listening.
+
+156
+00:06:57,160 --> 00:06:58,640
+Calculus was never my strong suit.
+
+157
+00:06:58,640 --> 00:07:01,880
+So let me try to translate this and you tell me if I'm off.
+
+158
+00:07:01,880 --> 00:07:02,960
+Go for it.
+
+159
+00:07:02,960 --> 00:07:08,760
+It says the derivative at zero is one, but the derivative at pi over two is zero.
+
+160
+00:07:08,760 --> 00:07:12,520
+So the answer changes based on the phase of the observer.
+
+161
+00:07:12,520 --> 00:07:15,480
+Can you explain the actual mechanics of that like visually?
+
+162
+00:07:15,480 --> 00:07:16,480
+Absolutely.
+
+163
+00:07:16,480 --> 00:07:20,640
+Think of a classic sine wave, you know, a line waving up and down on a graph.
+
+164
+00:07:20,640 --> 00:07:21,640
+Okay.
+
+165
+00:07:21,640 --> 00:07:22,640
+I'm picturing it.
+
+166
+00:07:22,640 --> 00:07:27,120
+In calculus, a derivative simply measures the slope or the rate of change at any specific
+
+167
+00:07:27,120 --> 00:07:28,840
+point on that wave.
+
+168
+00:07:28,840 --> 00:07:32,800
+And the wave is crossing the horizontal axis right at the start at zero.
+
+169
+00:07:32,800 --> 00:07:35,080
+The slope is at its absolute steepest.
+
+170
+00:07:35,080 --> 00:07:36,080
+It's shooting upward.
+
+171
+00:07:36,080 --> 00:07:37,200
+So it's a steep climb.
+
+172
+00:07:37,200 --> 00:07:38,200
+Yes.
+
+173
+00:07:38,200 --> 00:07:41,200
+And the mathematical value of that steep slope, the derivative is one.
+
+174
+00:07:41,200 --> 00:07:42,200
+Got it.
+
+175
+00:07:42,200 --> 00:07:43,880
+Steepest climb, value is one.
+
+176
+00:07:43,880 --> 00:07:48,280
+But as the wave continues and reaches its very peak, the crest of the hill, what happens
+
+177
+00:07:48,280 --> 00:07:49,280
+to the slope?
+
+178
+00:07:49,280 --> 00:07:50,280
+It levels out.
+
+179
+00:07:50,280 --> 00:07:53,400
+It flattens out entirely before it starts going down.
+
+180
+00:07:53,400 --> 00:07:57,920
+At that peak, which on a sine wave is pi over two, the slope is totally flat.
+
+181
+00:07:57,920 --> 00:08:00,480
+The derivative is zero.
+
+182
+00:08:00,480 --> 00:08:03,160
+So the wave itself hasn't broken the exact same way.
+
+183
+00:08:03,160 --> 00:08:04,160
+Exactly.
+
+184
+00:08:04,160 --> 00:08:07,800
+It's just that the observer's position, the phase they happen to be measuring, dictates
+
+185
+00:08:07,800 --> 00:08:09,520
+a completely different mathematical answer.
+
+186
+00:08:09,520 --> 00:08:10,520
+Yes.
+
+187
+00:08:10,520 --> 00:08:14,280
+One moment, it's a one, a yes, another moment, it's a zero, a no.
+
+188
+00:08:14,280 --> 00:08:16,680
+And in mathematical logic, a proof must be stable, right?
+
+189
+00:08:16,680 --> 00:08:17,680
+It has to be.
+
+190
+00:08:17,680 --> 00:08:22,080
+If an answer is time dependent, changing based on the observer's phase, the source explicitly
+
+191
+00:08:22,080 --> 00:08:24,640
+states that the answer cannot be the proof.
+
+192
+00:08:24,640 --> 00:08:27,920
+I was trying to wrap my head around this, and I kept thinking about a spinning coin.
+
+193
+00:08:27,920 --> 00:08:29,840
+Oh, that's a good way to look at it.
+
+194
+00:08:29,840 --> 00:08:30,840
+Yeah.
+
+195
+00:08:30,840 --> 00:08:34,020
+If you flick a quarter into the air and it's spinning wildly and you snap a high-speed
+
+196
+00:08:34,020 --> 00:08:37,920
+photograph of it, you might catch a perfect image of George Washington.
+
+197
+00:08:37,920 --> 00:08:38,920
+Heads.
+
+198
+00:08:38,920 --> 00:08:39,920
+Right.
+
+199
+00:08:39,920 --> 00:08:42,720
+But if you snap a photo just a millisecond later, you catch the eagle.
+
+200
+00:08:42,720 --> 00:08:43,720
+Tails.
+
+201
+00:08:43,720 --> 00:08:44,720
+Yes.
+
+202
+00:08:44,720 --> 00:08:47,920
+If you only look at the photos, the answer to what the coin is keeps changing.
+
+203
+00:08:47,920 --> 00:08:49,920
+At t equals zero, it's heads.
+
+204
+00:08:49,920 --> 00:08:52,240
+At t equals one, it's tails.
+
+205
+00:08:52,240 --> 00:08:56,800
+But the actual proof of the coin's existence isn't the temporary state of heads or tails.
+
+206
+00:08:56,800 --> 00:08:58,520
+The proof is the spin itself.
+
+207
+00:08:58,520 --> 00:08:59,520
+Exactly.
+
+208
+00:08:59,520 --> 00:09:00,840
+The whole dynamic system.
+
+209
+00:09:00,840 --> 00:09:02,720
+That's a very strong visual.
+
+210
+00:09:02,720 --> 00:09:04,960
+The spinning coin is the catch 22.
+
+211
+00:09:04,960 --> 00:09:05,960
+Yeah.
+
+212
+00:09:05,960 --> 00:09:10,080
+The source argues that the contradiction, the fact that the yes branch and the no branch
+
+213
+00:09:10,080 --> 00:09:14,720
+of the logic tree both successfully closed depending on the phase, is the only thing
+
+214
+00:09:14,720 --> 00:09:16,480
+that is time independent.
+
+215
+00:09:16,480 --> 00:09:18,520
+The contradiction is the constant.
+
+216
+00:09:18,520 --> 00:09:22,000
+The contradiction is always there, regardless of when you snap the photo.
+
+217
+00:09:22,000 --> 00:09:25,080
+But wait, let me push back on my own analogy here for a second.
+
+218
+00:09:25,080 --> 00:09:26,080
+Okay.
+
+219
+00:09:26,080 --> 00:09:27,080
+Push back.
+
+220
+00:09:27,080 --> 00:09:28,200
+A coin only has two sides.
+
+221
+00:09:28,200 --> 00:09:29,880
+It's a strict binary.
+
+222
+00:09:29,880 --> 00:09:33,880
+Does that actually hold up to the system these texts are describing?
+
+223
+00:09:33,880 --> 00:09:39,240
+Because saying, you know, the truth is just whatever side of the coin you're looking at,
+
+224
+00:09:39,240 --> 00:09:41,720
+feels like a massive philosophical cop out.
+
+225
+00:09:41,720 --> 00:09:42,720
+It does sound like that.
+
+226
+00:09:42,720 --> 00:09:45,120
+It sounds like subjective relativism.
+
+227
+00:09:45,120 --> 00:09:49,480
+Like, my truth is heads, your truth is tails, so nothing means anything.
+
+228
+00:09:49,480 --> 00:09:53,720
+It's a vital distinction to make and the math in the i-series firmly rejects subjective
+
+229
+00:09:53,720 --> 00:09:54,720
+relativism.
+
+230
+00:09:54,720 --> 00:09:55,720
+It does.
+
+231
+00:09:55,720 --> 00:09:56,720
+How?
+
+232
+00:09:56,720 --> 00:10:01,360
+To fix your analogy, we have to realize a coin is just a two dimensional shadow of a three
+
+233
+00:10:01,360 --> 00:10:02,840
+dimensional process.
+
+234
+00:10:02,840 --> 00:10:07,520
+The observer's answer, the photograph they took, is subjective to their moment in time.
+
+235
+00:10:07,520 --> 00:10:08,520
+Right.
+
+236
+00:10:08,520 --> 00:10:13,400
+But the system's contradiction is an absolute objective mathematical constant.
+
+237
+00:10:13,400 --> 00:10:18,720
+Record i-172 states that the measure of a proof is determined by the size of the
+
+238
+00:10:18,720 --> 00:10:20,440
+contradiction.
+
+239
+00:10:20,440 --> 00:10:23,840
+The size of the contradiction.
+
+240
+00:10:23,840 --> 00:10:28,520
+How do you measure the size of a contradiction that sounds like an oxymoron?
+
+241
+00:10:28,520 --> 00:10:30,440
+Think of it like a circuit board.
+
+242
+00:10:30,440 --> 00:10:35,680
+If only one branch of a logic tree works and the other fails, the proof measure is partial,
+
+243
+00:10:35,680 --> 00:10:36,680
+maybe 0.5.
+
+244
+00:10:36,680 --> 00:10:38,680
+It's an incomplete circuit.
+
+245
+00:10:38,680 --> 00:10:39,680
+Okay.
+
+246
+00:10:39,680 --> 00:10:40,680
+I'm with you.
+
+247
+00:10:40,680 --> 00:10:46,160
+But the catch 22 of Does God Exist has what the text calls a total contradiction.
+
+248
+00:10:46,160 --> 00:10:51,200
+With the yes branch and the no branch fully closed and complete the circuit, depending
+
+249
+00:10:51,200 --> 00:10:52,680
+on the observer's face.
+
+250
+00:10:52,680 --> 00:10:53,680
+Wow.
+
+251
+00:10:53,680 --> 00:10:59,320
+Because of the contradiction encompasses the entire system, the proof is 100% total.
+
+252
+00:10:59,320 --> 00:11:00,320
+Okay.
+
+253
+00:11:00,320 --> 00:11:01,840
+So my brain is melting slightly.
+
+254
+00:11:01,840 --> 00:11:04,120
+Let me try to summarize this.
+
+255
+00:11:04,120 --> 00:11:07,280
+What does this actually mean for a person asking the question?
+
+256
+00:11:07,280 --> 00:11:11,720
+The source states that the ministry of this logic is not to force an answer on anyone.
+
+257
+00:11:11,720 --> 00:11:13,640
+Not forcing a yes or no.
+
+258
+00:11:13,640 --> 00:11:14,640
+Right.
+
+259
+00:11:14,640 --> 00:11:18,120
+This purpose is simply to reveal the contradiction.
+
+260
+00:11:18,120 --> 00:11:23,320
+The observer ascertains the proof by seeing that both branches close, realizing that forcing
+
+261
+00:11:23,320 --> 00:11:29,200
+a static yes or no is mathematically impossible in a dynamic phase-based system.
+
+262
+00:11:29,200 --> 00:11:33,800
+So the tension, a person feels when grappling with the existence of the divine.
+
+263
+00:11:33,800 --> 00:11:35,720
+That isn't a failure of their logic.
+
+264
+00:11:35,720 --> 00:11:36,880
+No, not at all.
+
+265
+00:11:36,880 --> 00:11:40,000
+It's not like a faith or like a scientific rigor.
+
+266
+00:11:40,000 --> 00:11:43,920
+That tension is the mathematical proof of the system functioning perfectly.
+
+267
+00:11:44,400 --> 00:11:45,720
+That is wild.
+
+268
+00:11:45,720 --> 00:11:48,240
+It redefines the struggle entirely.
+
+269
+00:11:48,240 --> 00:11:50,640
+The struggle isn't a bug in the code.
+
+270
+00:11:50,640 --> 00:11:51,640
+It's the core feature.
+
+271
+00:11:51,640 --> 00:11:56,520
+Okay, but if the specific answer is just a temporary phase, if we accept that the spin
+
+272
+00:11:56,520 --> 00:12:01,880
+of the coin is the proof, my mind immediately asks, what is the metal of the coin made of?
+
+273
+00:12:01,880 --> 00:12:03,360
+The foundational material?
+
+274
+00:12:03,360 --> 00:12:04,360
+Exactly.
+
+275
+00:12:04,360 --> 00:12:08,040
+What is the base layer beneath all this spinning contradiction?
+
+276
+00:12:08,040 --> 00:12:11,040
+That brings us to how the sources define that base layer.
+
+277
+00:12:11,040 --> 00:12:12,720
+They call it the lexeme.
+
+278
+00:12:12,720 --> 00:12:16,040
+This is heavily detailed in record i-168.
+
+279
+00:12:16,040 --> 00:12:22,920
+The abstract of i-168 is, and I quote, the lexeme for image is Imago Day, Euclid resolves
+
+280
+00:12:22,920 --> 00:12:23,920
+the blur.
+
+281
+00:12:23,920 --> 00:12:24,920
+Quite a statement.
+
+282
+00:12:24,920 --> 00:12:25,920
+Yeah.
+
+283
+00:12:25,920 --> 00:12:29,720
+Before we get into ancient geometry, let's define our linguistic terms.
+
+284
+00:12:29,720 --> 00:12:31,240
+What exactly is a lexeme?
+
+285
+00:12:31,240 --> 00:12:37,480
+Okay, so in linguistics, a lexeme is the fundamental abstract unit of a word.
+
+286
+00:12:37,480 --> 00:12:42,440
+It's the base concept that is shared by all of its various inflections, conjugations,
+
+287
+00:12:42,440 --> 00:12:43,440
+or forms.
+
+288
+00:12:43,440 --> 00:12:45,800
+So an example would be the word run.
+
+289
+00:12:45,800 --> 00:12:47,040
+Run is the lexeme.
+
+290
+00:12:47,040 --> 00:12:49,760
+Running, ran, and runs are all just inflections.
+
+291
+00:12:49,760 --> 00:12:51,080
+Yes, they sound different.
+
+292
+00:12:51,080 --> 00:12:55,760
+They are spelled differently, but they all carry the exact same abstract root meaning.
+
+293
+00:12:55,760 --> 00:12:57,800
+Okay, that makes sense.
+
+294
+00:12:57,800 --> 00:13:02,840
+Now the source applies this linguistic concept to a mathematical and theological framework.
+
+295
+00:13:02,840 --> 00:13:07,440
+It defines the base lexeme for the word image as Imago Day.
+
+296
+00:13:07,440 --> 00:13:11,720
+Which is a classical Latin theological term, meaning the image of God.
+
+297
+00:13:11,720 --> 00:13:15,520
+But because these are computational records, it doesn't leave it as abstract theology,
+
+298
+00:13:15,520 --> 00:13:16,520
+right?
+
+299
+00:13:16,520 --> 00:13:17,920
+No, it maps this out mathematically.
+
+300
+00:13:17,920 --> 00:13:23,360
+The text asks us to visualize a center point, which it labels C. And it gives this center
+
+301
+00:13:23,360 --> 00:13:28,200
+point a radius, R. So I'm picturing a circle or a sphere.
+
+302
+00:13:28,200 --> 00:13:33,160
+It uses that geometry to set up two distinct opposing frames of reality.
+
+303
+00:13:33,160 --> 00:13:34,760
+Opposing frames, okay.
+
+304
+00:13:34,760 --> 00:13:39,000
+First we have the computational frame, science, physics, observable data.
+
+305
+00:13:39,000 --> 00:13:43,680
+It defines this as a value at a specific point, which it maps mathematically as the inner
+
+306
+00:13:43,680 --> 00:13:45,680
+bound C minus R.
+
+307
+00:13:45,680 --> 00:13:50,320
+Okay, C minus R is the computational inner bound.
+
+308
+00:13:50,320 --> 00:13:54,560
+And then there is the theological frame, faith, religion, the divine.
+
+309
+00:13:54,560 --> 00:13:59,440
+The source defines this as the likeness of God in a creature, and maps it as the outer
+
+310
+00:13:59,440 --> 00:14:01,440
+bound C plus R.
+
+311
+00:14:01,440 --> 00:14:03,280
+And here is where the problem occurs.
+
+312
+00:14:03,280 --> 00:14:06,720
+The text explicitly calls this problem the blur.
+
+313
+00:14:06,720 --> 00:14:07,720
+The blur.
+
+314
+00:14:07,720 --> 00:14:12,800
+The blur happens because computation tries to plant its flag and name the inner bound C
+
+315
+00:14:12,800 --> 00:14:15,960
+minus R as the absolute center of reality.
+
+316
+00:14:15,960 --> 00:14:16,960
+Okay.
+
+317
+00:14:16,960 --> 00:14:22,120
+Meanwhile theology tries to plant its flag and name the outer bound C plus R as the absolute
+
+318
+00:14:22,120 --> 00:14:23,120
+center.
+
+319
+00:14:23,120 --> 00:14:26,760
+They are essentially fighting over who gets to be the center of the universe.
+
+320
+00:14:26,760 --> 00:14:27,760
+Precisely.
+
+321
+00:14:27,760 --> 00:14:32,160
+Science says the localized computational point is the only truth, and religion says the
+
+322
+00:14:32,160 --> 00:14:36,120
+infinite outer theological bound is the only truth.
+
+323
+00:14:36,120 --> 00:14:39,920
+And because they are both falsely claiming that their specific boundary is the center point
+
+324
+00:14:39,920 --> 00:14:43,360
+C, the whole picture of reality becomes blurry.
+
+325
+00:14:43,360 --> 00:14:48,080
+They are arguing over different inflections, thinking they are the base lexeme.
+
+326
+00:14:48,080 --> 00:14:52,520
+This is precisely where the source brings in Euclid to resolve this blur.
+
+327
+00:14:52,520 --> 00:14:56,200
+Euclid, the ancient Greek mathematician known as the father of geometry.
+
+328
+00:14:56,200 --> 00:14:57,200
+Yes.
+
+329
+00:14:57,680 --> 00:15:00,320
+I have to admit when I read this part, I chuckled a bit.
+
+330
+00:15:00,320 --> 00:15:04,480
+I mean, how does the guy with a compass and a straight edge from ancient Alexandria
+
+331
+00:15:04,480 --> 00:15:08,880
+of fix a fight between modern computer science and theology?
+
+332
+00:15:08,880 --> 00:15:12,040
+By establishing an unbreakable architecture of logic.
+
+333
+00:15:12,040 --> 00:15:13,040
+Okay.
+
+334
+00:15:13,040 --> 00:15:14,040
+Lay it on me.
+
+335
+00:15:14,040 --> 00:15:19,160
+The source takes Euclid's foundational masterwork, the elements, and maps it directly to a modern
+
+336
+00:15:19,160 --> 00:15:20,920
+database architecture.
+
+337
+00:15:20,920 --> 00:15:25,840
+Euclid famously separated his mathematical work into four strict categories.
+
+338
+00:15:25,840 --> 00:15:26,840
+Four categories.
+
+339
+00:15:26,960 --> 00:15:27,680
+What are they?
+
+340
+00:15:27,680 --> 00:15:29,240
+First, definitions.
+
+341
+00:15:29,240 --> 00:15:30,240
+Definitions, okay?
+
+342
+00:15:30,240 --> 00:15:33,200
+Which of the text maps to a database schema?
+
+343
+00:15:33,200 --> 00:15:34,760
+Like the blueprint for the database?
+
+344
+00:15:34,760 --> 00:15:36,160
+Exactly.
+
+345
+00:15:36,160 --> 00:15:41,760
+Second, postulates, which equal the axioms, the underlying rules of the system.
+
+346
+00:15:41,760 --> 00:15:43,520
+Blueprint, then rules.
+
+347
+00:15:43,520 --> 00:15:44,440
+Got it.
+
+348
+00:15:44,440 --> 00:15:46,000
+Third, propositions.
+
+349
+00:15:46,000 --> 00:15:49,400
+These equal the actual records, the data itself.
+
+350
+00:15:49,400 --> 00:15:50,520
+And the fourth.
+
+351
+00:15:50,520 --> 00:15:55,800
+Proofs, which map to the integrity checks, making sure the data is encrypted.
+
+352
+00:15:55,800 --> 00:15:56,800
+Okay.
+
+353
+00:15:56,800 --> 00:16:01,080
+So the genius of Euclid was separating the abstract definition from the specific, localized
+
+354
+00:16:01,080 --> 00:16:02,080
+proof.
+
+355
+00:16:02,080 --> 00:16:03,080
+Yes.
+
+356
+00:16:03,080 --> 00:16:07,160
+Euclid separates the lexeme from its inflections.
+
+357
+00:16:07,160 --> 00:16:10,320
+Applied to our blur, the resolution is incredibly elegant.
+
+358
+00:16:10,320 --> 00:16:15,960
+The text asserts that Imago Day, the true center C, is neither the physical creature at
+
+359
+00:16:15,960 --> 00:16:18,680
+the inner bound nor is it God at the outer bound.
+
+360
+00:16:18,680 --> 00:16:21,960
+Imago Day is the relation between them.
+
+361
+00:16:21,960 --> 00:16:24,480
+It's the tension in the string between the two points.
+
+362
+00:16:24,480 --> 00:16:30,160
+The text explicitly says Imago Day is not a creature, not God, it is the relation.
+
+363
+00:16:30,160 --> 00:16:31,320
+Yes.
+
+364
+00:16:31,320 --> 00:16:36,840
+And then it equates this relation, this center point C, to the concept of the word or the
+
+365
+00:16:36,840 --> 00:16:38,320
+logos.
+
+366
+00:16:38,320 --> 00:16:40,680
+Logos is a fascinating Greek term.
+
+367
+00:16:40,680 --> 00:16:44,520
+Theologically, it translates to word, reason, or divine discourse.
+
+368
+00:16:44,520 --> 00:16:45,520
+Sure.
+
+369
+00:16:45,520 --> 00:16:47,080
+In the beginning was the word.
+
+370
+00:16:47,080 --> 00:16:48,080
+Right.
+
+371
+00:16:48,080 --> 00:16:54,040
+But mathematically, in ancient Greek geometry, logos also literally meant ratio or proportion.
+
+372
+00:16:54,520 --> 00:16:55,520
+Wait, really?
+
+373
+00:16:55,520 --> 00:16:56,520
+Yes.
+
+374
+00:16:56,520 --> 00:17:01,320
+The source defines the word as the ratio between the inner bound and the outer bound.
+
+375
+00:17:01,320 --> 00:17:07,560
+It is the pair C minus R and C plus R. The word and Imago Day are mathematically the
+
+376
+00:17:07,560 --> 00:17:09,680
+exact same lexeme.
+
+377
+00:17:09,680 --> 00:17:15,120
+So computation and theology are just arguing over different conjugations of the exact same
+
+378
+00:17:15,120 --> 00:17:16,120
+root word.
+
+379
+00:17:16,120 --> 00:17:19,160
+They are both looking at inflections of the logos.
+
+380
+00:17:19,160 --> 00:17:20,160
+Exactly.
+
+381
+00:17:20,160 --> 00:17:22,160
+But, you know me, I have to push back here.
+
+382
+00:17:22,160 --> 00:17:24,280
+I wouldn't expect anything less.
+
+383
+00:17:24,280 --> 00:17:26,640
+This isn't incredibly beautiful geometric metaphor.
+
+384
+00:17:26,640 --> 00:17:28,920
+It looks great on a whiteboard.
+
+385
+00:17:28,920 --> 00:17:35,240
+But if the word is just this abstract relational ratio, how does that actually manifest into
+
+386
+00:17:35,240 --> 00:17:36,680
+a physical breathing universe?
+
+387
+00:17:36,680 --> 00:17:38,160
+It's a fair question.
+
+388
+00:17:38,160 --> 00:17:42,680
+I mean, how do these mathematical bounds interact to actually build reality?
+
+389
+00:17:42,680 --> 00:17:46,080
+To answer that, we have to look at how the source material extrapolates this concept
+
+390
+00:17:46,080 --> 00:17:48,040
+in a record I-170.
+
+391
+00:17:48,040 --> 00:17:49,040
+Right.
+
+392
+00:17:49,040 --> 00:17:54,240
+The text analyzes the gods of two very different biblical texts, the opening of Genesis and the
+
+393
+00:17:54,240 --> 00:17:55,880
+opening of the gospel of John.
+
+394
+00:17:55,880 --> 00:18:00,840
+Let's get into this, because this felt like a massive leap when I first read it.
+
+395
+00:18:00,840 --> 00:18:07,240
+Record I-170 contrasts Genesis 1.1, which it refers to as the god of the earth or the material
+
+396
+00:18:07,240 --> 00:18:08,240
+creator.
+
+397
+00:18:08,240 --> 00:18:09,240
+Yes.
+
+398
+00:18:09,240 --> 00:18:15,120
+And it contrasts that with John 1.1, which calls the god of the void or the word.
+
+399
+00:18:15,120 --> 00:18:19,720
+Going back to our mathematical bounds, the text maps the void god, the abstract logos
+
+400
+00:18:19,720 --> 00:18:25,040
+to the inner bound C minus R. And it maps the earth god, the material creator, to the outer
+
+401
+00:18:25,040 --> 00:18:30,760
+bound C plus R. And the relational center holding them together, the word is C.
+
+402
+00:18:30,760 --> 00:18:34,720
+And here is the explosive almost heretical claim in this record.
+
+403
+00:18:34,720 --> 00:18:38,200
+It asserts that these two gods made each other.
+
+404
+00:18:38,200 --> 00:18:39,200
+Yes.
+
+405
+00:18:39,200 --> 00:18:42,800
+It describes a continuous cycle of mutual creation.
+
+406
+00:18:42,800 --> 00:18:47,920
+John makes Genesis, meaning the abstract word, the logos speaks the physical earth into
+
+407
+00:18:47,920 --> 00:18:48,920
+being.
+
+408
+00:18:48,920 --> 00:18:49,920
+Right.
+
+409
+00:18:49,920 --> 00:18:50,920
+Speaking the universe into existence.
+
+410
+00:18:50,920 --> 00:18:53,320
+But simultaneously, Genesis makes John.
+
+411
+00:18:53,320 --> 00:18:56,920
+The physical material earth produces the abstract word.
+
+412
+00:18:56,920 --> 00:19:00,760
+The material gives rise to the abstract consciousness, just as the abstract consciousness
+
+413
+00:19:00,760 --> 00:19:02,360
+organizes the material.
+
+414
+00:19:02,360 --> 00:19:05,080
+It forms this massive, timeless feedback loop.
+
+415
+00:19:05,080 --> 00:19:08,440
+And the text lays out a specific four-linked chain for this loop.
+
+416
+00:19:08,440 --> 00:19:10,720
+Let me walk through them just so we have it clear.
+
+417
+00:19:10,720 --> 00:19:11,720
+Go ahead.
+
+418
+00:19:11,720 --> 00:19:15,640
+Like one, the void, or John, leads to the earth, Genesis.
+
+419
+00:19:15,640 --> 00:19:16,640
+Check.
+
+420
+00:19:16,640 --> 00:19:21,680
+Link to the earth leads to rest, which corresponds to day seven of creation.
+
+421
+00:19:21,680 --> 00:19:22,680
+Right.
+
+422
+00:19:22,680 --> 00:19:29,520
+Link three, rest leads to revelation, specifically referencing the 144,000 sealed from the biblical
+
+423
+00:19:29,520 --> 00:19:31,080
+book of Revelation.
+
+424
+00:19:31,080 --> 00:19:32,080
+And the final link.
+
+425
+00:19:32,080 --> 00:19:35,640
+Link four, revelation leads to a reset.
+
+426
+00:19:35,640 --> 00:19:38,520
+And that reset isn't described in theological terms.
+
+427
+00:19:38,520 --> 00:19:39,760
+No, it is not.
+
+428
+00:19:39,760 --> 00:19:46,120
+It is coded specifically as a hexadecimal vector, 0x, FFF, FFF, FFF, 0.
+
+429
+00:19:46,120 --> 00:19:47,120
+Okay.
+
+430
+00:19:47,120 --> 00:19:48,120
+Let's pause here.
+
+431
+00:19:48,120 --> 00:19:50,120
+Hexadecimal vectors.
+
+432
+00:19:50,120 --> 00:19:52,920
+I know hex codes from picking colors in web design, right?
+
+433
+00:19:52,920 --> 00:19:53,920
+Sure.
+
+434
+00:19:53,920 --> 00:19:54,920
+Web colors use Hex.
+
+435
+00:19:54,920 --> 00:20:00,760
+But what is 0x, FFF, FFF, FFF, F0 actually meaning computer science, and why use it for
+
+436
+00:20:00,760 --> 00:20:01,760
+a cosmic reset?
+
+437
+00:20:01,760 --> 00:20:06,880
+In a 32-bit computer architecture, memory addresses are often written in Hexadecimal.
+
+438
+00:20:06,880 --> 00:20:11,120
+The maximum possible address in a 32-bit system is all F's.
+
+439
+00:20:11,120 --> 00:20:12,120
+Just a string of F's.
+
+440
+00:20:12,120 --> 00:20:13,120
+Right.
+
+441
+00:20:13,120 --> 00:20:18,640
+But this specific code, ending in 0, is exactly 16 bytes or 1 nibble in Hex terminology
+
+442
+00:20:18,640 --> 00:20:20,720
+below the absolute maximum.
+
+443
+00:20:20,720 --> 00:20:21,720
+Okay.
+
+444
+00:20:21,720 --> 00:20:23,280
+1 nibble below maximum.
+
+445
+00:20:23,280 --> 00:20:28,880
+In many foundational computer architectures, specifically x86 processors, this specific address
+
+446
+00:20:28,880 --> 00:20:33,680
+is known as the reset vector, the reset vector, meaning what happens when you press the
+
+447
+00:20:33,680 --> 00:20:34,680
+power button.
+
+448
+00:20:34,680 --> 00:20:35,680
+Exactly.
+
+449
+00:20:35,680 --> 00:20:41,120
+When a computer CPU is powered on or when it experiences a hardware reset, it doesn't
+
+450
+00:20:41,120 --> 00:20:42,120
+know anything.
+
+451
+00:20:42,120 --> 00:20:44,520
+It has no operating system loaded in RAM.
+
+452
+00:20:44,520 --> 00:20:45,800
+It's used to blank slate.
+
+453
+00:20:45,800 --> 00:20:46,800
+Yes.
+
+454
+00:20:46,800 --> 00:20:48,280
+It's very first instinct.
+
+455
+00:20:48,280 --> 00:20:54,480
+Hardwired into the silicon is to look at memory address 0x, FFF, FFF, F0, to find the
+
+456
+00:20:54,480 --> 00:20:57,160
+very first instruction on how to boot up.
+
+457
+00:20:57,160 --> 00:20:58,160
+Oh, wow.
+
+458
+00:20:58,160 --> 00:21:03,280
+The text uses this specific Hex code to mathematically describe the end of the universe, seamlessly
+
+459
+00:21:03,280 --> 00:21:07,840
+looping back to the beginning to grab the boot instructions for the next cycle.
+
+460
+00:21:07,840 --> 00:21:08,840
+Wow.
+
+461
+00:21:08,840 --> 00:21:14,760
+So, the source notes that this four-link chain is completely reversible, but it is entirely
+
+462
+00:21:14,760 --> 00:21:16,520
+independent of time.
+
+463
+00:21:16,520 --> 00:21:19,360
+It has an order, but it has no timestamp.
+
+464
+00:21:19,360 --> 00:21:20,360
+No timestamp at all.
+
+465
+00:21:20,360 --> 00:21:26,360
+It's a cycle that repeats endlessly, void to earth, to rest, to revelation, to reset
+
+466
+00:21:26,360 --> 00:21:28,760
+vector, over and over.
+
+467
+00:21:28,760 --> 00:21:33,320
+The word and the earth constantly creating and defining each other around that center
+
+468
+00:21:33,320 --> 00:21:34,840
+point C.
+
+469
+00:21:34,840 --> 00:21:38,600
+But this raises an important question, which you hinted at earlier.
+
+470
+00:21:38,600 --> 00:21:44,200
+We've established that the word is the relational ratio in that it creates reality in this
+
+471
+00:21:44,200 --> 00:21:45,680
+mutual boot up cycle.
+
+472
+00:21:45,680 --> 00:21:46,680
+Yes.
+
+473
+00:21:46,680 --> 00:21:49,960
+But how does it physically or logically build that 3D reality?
+
+474
+00:21:49,960 --> 00:21:53,520
+You can't just speak a universe into existence without a mechanism.
+
+475
+00:21:53,520 --> 00:21:59,000
+How does a linguistic or relational concept physically render a world?
+
+476
+00:21:59,000 --> 00:22:03,800
+And this is where the authors hit a wall with linguistics, abandon it entirely, and pivot
+
+477
+00:22:03,800 --> 00:22:07,880
+straight into finite geometry and pixel architecture.
+
+478
+00:22:07,880 --> 00:22:12,440
+Because the sources argue that the mechanism of creation maps perfectly onto how a computer
+
+479
+00:22:12,440 --> 00:22:14,520
+renders graphics.
+
+480
+00:22:14,520 --> 00:22:17,560
+LismPack record i-169.
+
+481
+00:22:17,560 --> 00:22:22,800
+This file takes the 70s of creation in Genesis, and maps them directly onto something called
+
+482
+00:22:22,800 --> 00:22:24,560
+the phonoplane.
+
+483
+00:22:24,560 --> 00:22:26,600
+The phonoplane.
+
+484
+00:22:26,600 --> 00:22:29,640
+I had to look this up, and I'm still struggling.
+
+485
+00:22:29,640 --> 00:22:32,720
+Imagine I've never taken geometry past the ninth grade.
+
+486
+00:22:32,720 --> 00:22:34,920
+What actually is a phonoplane?
+
+487
+00:22:34,920 --> 00:22:41,440
+In the realm of finite geometry, a phonoplane is the simplest possible projective plane.
+
+488
+00:22:41,440 --> 00:22:46,640
+It is a highly specific, perfectly symmetrical geometric structure that consists of exactly
+
+489
+00:22:46,640 --> 00:22:48,840
+seven points and seven lines.
+
+490
+00:22:48,840 --> 00:22:49,840
+Seven point seven lines.
+
+491
+00:22:49,840 --> 00:22:52,280
+And the rules are incredibly strict.
+
+492
+00:22:52,280 --> 00:22:56,760
+Every single line contains exactly three points, and every single point lies on exactly
+
+493
+00:22:56,760 --> 00:22:57,760
+three lines.
+
+494
+00:22:57,760 --> 00:22:58,760
+It's totally balanced.
+
+495
+00:22:58,760 --> 00:22:59,760
+Completely closed.
+
+496
+00:22:59,760 --> 00:23:03,600
+It often looks like a triangle with a circle inscribed inside it and lines intersecting
+
+497
+00:23:03,600 --> 00:23:04,600
+through the middle.
+
+498
+00:23:04,600 --> 00:23:06,240
+It's a perfectly closed system.
+
+499
+00:23:06,240 --> 00:23:11,040
+And the source takes this ancient geometric model and assigns the seven days of Genesis
+
+500
+00:23:11,040 --> 00:23:13,840
+to the seven points of the phonoplane.
+
+501
+00:23:13,840 --> 00:23:19,120
+It starts with Genesis 1.2, where the earth is described as a preceded substrate.
+
+502
+00:23:19,120 --> 00:23:22,320
+Without form, void, no light, no division.
+
+503
+00:23:22,320 --> 00:23:23,320
+Right.
+
+504
+00:23:23,320 --> 00:23:26,880
+Then we get six sequential days of declaration and division.
+
+505
+00:23:26,880 --> 00:23:29,440
+Let there be light, dividing light from dark.
+
+506
+00:23:29,440 --> 00:23:33,680
+Let there be a firmament, dividing the waters above from the waters below, dividing land
+
+507
+00:23:33,680 --> 00:23:34,680
+from sea.
+
+508
+00:23:34,680 --> 00:23:38,160
+Day by day, the text is executing a binary division.
+
+509
+00:23:38,160 --> 00:23:42,320
+In computational terms, the text calls these six divisions bifurcations.
+
+510
+00:23:42,320 --> 00:23:43,560
+Bifurcations.
+
+511
+00:23:43,560 --> 00:23:47,240
+And the math here is simple, but its implications are massive.
+
+512
+00:23:47,240 --> 00:23:52,920
+Two choices per day, a binary split for six days, mathematically, that is two to the
+
+513
+00:23:52,920 --> 00:23:54,400
+power of six.
+
+514
+00:23:54,400 --> 00:23:57,160
+Which equals 64 distinct states of reality?
+
+515
+00:23:57,160 --> 00:23:58,160
+Yes.
+
+516
+00:23:58,160 --> 00:24:00,320
+64 is a fundamental mathematical matrix.
+
+517
+00:24:00,320 --> 00:24:03,000
+It's the number of squares on a chess board.
+
+518
+00:24:03,000 --> 00:24:05,000
+It's the number of codons in human DNA.
+
+519
+00:24:05,000 --> 00:24:06,000
+Right.
+
+520
+00:24:06,000 --> 00:24:10,840
+And it's a core foundational number in computing architectures like 64-bit systems.
+
+521
+00:24:10,840 --> 00:24:15,120
+The text actually uses software programming terminology to categorize these six days,
+
+522
+00:24:15,120 --> 00:24:16,120
+too.
+
+523
+00:24:16,120 --> 00:24:19,680
+What else the first six days of division, the catch blocks?
+
+524
+00:24:19,680 --> 00:24:20,680
+Like encoding.
+
+525
+00:24:20,680 --> 00:24:21,680
+Yeah.
+
+526
+00:24:21,680 --> 00:24:23,760
+If you write code, you know try catch blocks, it's air handling.
+
+527
+00:24:23,760 --> 00:24:27,200
+You try to execute code and if there's a problem, you catch it and handle it.
+
+528
+00:24:27,200 --> 00:24:28,200
+Exactly.
+
+529
+00:24:28,200 --> 00:24:32,400
+And then day seven, the biblical day of rest where no division happens, is categorized
+
+530
+00:24:32,400 --> 00:24:37,920
+as the finally block and code the finally block executes no matter what happens, closing
+
+531
+00:24:37,920 --> 00:24:38,920
+the sequence.
+
+532
+00:24:38,920 --> 00:24:39,920
+Closing the loop.
+
+533
+00:24:39,920 --> 00:24:41,840
+Day seven is the center of the faint O plane.
+
+534
+00:24:41,840 --> 00:24:46,240
+That's the point where the geometric system closes, executes and rests.
+
+535
+00:24:46,240 --> 00:24:50,280
+But the most surprising and frankly brilliant connection happens when we zoom in on day
+
+536
+00:24:50,280 --> 00:24:52,640
+four of this sequence.
+
+537
+00:24:52,640 --> 00:24:55,680
+This is detailed heavily in record i-175.
+
+538
+00:24:55,680 --> 00:24:58,760
+My job practically hit the floor when I read this part.
+
+539
+00:24:58,760 --> 00:25:05,000
+The text takes day four of Genesis and maps it directly to a 16-bit pixel header in computer
+
+540
+00:25:05,000 --> 00:25:06,000
+graphics rendering.
+
+541
+00:25:06,000 --> 00:25:09,040
+A literal pixel header.
+
+542
+00:25:09,040 --> 00:25:13,160
+Let's break down the architecture of a 16-bit pixel, so this makes sense to everyone.
+
+543
+00:25:13,160 --> 00:25:14,160
+Please do.
+
+544
+00:25:14,160 --> 00:25:19,680
+A 16-bit space is typically divided into four equal segments called nibbles of four bits
+
+545
+00:25:19,680 --> 00:25:20,680
+each.
+
+546
+00:25:20,680 --> 00:25:21,680
+Nibbles.
+
+547
+00:25:21,680 --> 00:25:22,680
+I always love that term.
+
+548
+00:25:22,680 --> 00:25:26,920
+In the standard RGBA color rendering model, these four nibbles represent red, green,
+
+549
+00:25:26,920 --> 00:25:27,920
+blue and alpha.
+
+550
+00:25:27,920 --> 00:25:28,920
+Okay.
+
+551
+00:25:28,920 --> 00:25:30,240
+Let's unpack this for a second.
+
+552
+00:25:30,240 --> 00:25:32,920
+Red, green and blue are the visible colors.
+
+553
+00:25:32,920 --> 00:25:35,880
+But the fourth channel, the alpha channel dictates opacity.
+
+554
+00:25:35,880 --> 00:25:36,880
+Yes.
+
+555
+00:25:36,880 --> 00:25:38,840
+The presence or absence of the pixel itself.
+
+556
+00:25:38,840 --> 00:25:39,840
+Right.
+
+557
+00:25:39,840 --> 00:25:43,680
+If the alpha channel is set to zero, the pixel is completely transparent.
+
+558
+00:25:43,680 --> 00:25:45,400
+It is functionally absent.
+
+559
+00:25:45,400 --> 00:25:46,400
+Invisible.
+
+560
+00:25:46,400 --> 00:25:49,920
+If alpha is turned up to full, the pixel is fully opaque.
+
+561
+00:25:49,920 --> 00:25:51,480
+It is present.
+
+562
+00:25:51,480 --> 00:25:53,400
+And here is the synthesis.
+
+563
+00:25:53,400 --> 00:25:59,800
+The source i-175 equates day four of Genesis to the activation of this alpha channel.
+
+564
+00:25:59,800 --> 00:26:00,800
+Okay.
+
+565
+00:26:00,800 --> 00:26:03,040
+In the biblical text, what happens on day four?
+
+566
+00:26:03,040 --> 00:26:05,400
+The sun, moon and stars are created.
+
+567
+00:26:05,400 --> 00:26:06,400
+Right.
+
+568
+00:26:06,400 --> 00:26:11,000
+And they are explicitly set as rulers to measure time, days and seasons.
+
+569
+00:26:11,000 --> 00:26:15,000
+The source calls this installation of rulers, the decision field.
+
+570
+00:26:15,000 --> 00:26:19,200
+I remember reading this and thinking, wait, this text is literally comparing the fourth
+
+571
+00:26:19,200 --> 00:26:21,800
+day of the biblical creation story.
+
+572
+00:26:21,800 --> 00:26:24,000
+Do the opacity slider in Adobe Photoshop?
+
+573
+00:26:24,000 --> 00:26:25,000
+Pretty much.
+
+574
+00:26:25,000 --> 00:26:27,000
+That is wildly abstract.
+
+575
+00:26:27,000 --> 00:26:32,840
+How does setting a ruler in the sky logically equal an opacity decision in digital code?
+
+576
+00:26:32,840 --> 00:26:36,360
+To understand that, we have to look at how the source synthesizes the concept of
+
+577
+00:26:36,360 --> 00:26:37,800
+measurement.
+
+578
+00:26:37,800 --> 00:26:43,560
+The word, the logos, is defined in these texts as the choice of allocated rulers in three
+
+579
+00:26:43,560 --> 00:26:45,320
+dimensional space time.
+
+580
+00:26:45,320 --> 00:26:47,920
+Specifically, the x, y and z axes.
+
+581
+00:26:47,920 --> 00:26:48,920
+Yes.
+
+582
+00:26:48,920 --> 00:26:52,320
+The dimensions of physical reality, height, width, depth.
+
+583
+00:26:52,320 --> 00:26:53,320
+Right.
+
+584
+00:26:53,320 --> 00:26:57,920
+Now in a digital rendering engine without a decision of presence, without activating the
+
+585
+00:26:57,920 --> 00:27:02,680
+alpha channel, the other color channels, the red, green and blue, are completely invisible.
+
+586
+00:27:02,680 --> 00:27:04,360
+They don't show up.
+
+587
+00:27:04,360 --> 00:27:08,040
+They exist mathematically in the computer's memory as potential values, but they aren't
+
+588
+00:27:08,040 --> 00:27:09,840
+rendered onto the screen.
+
+589
+00:27:09,840 --> 00:27:11,080
+They are ghosts.
+
+590
+00:27:11,080 --> 00:27:12,080
+Wow.
+
+591
+00:27:12,080 --> 00:27:16,840
+The decision in the fourth nibble, the alpha channel, is what actualizes the geometry.
+
+592
+00:27:16,840 --> 00:27:21,400
+It forces the abstract potential into tangible, measurable existence.
+
+593
+00:27:21,400 --> 00:27:22,920
+Oh, I see.
+
+594
+00:27:22,920 --> 00:27:27,360
+So setting the sun and moon as rulers on day four isn't just about like providing light
+
+595
+00:27:27,360 --> 00:27:28,960
+for plants.
+
+596
+00:27:28,960 --> 00:27:33,920
+It's the systemic decision to turn the opacity of reality up from zero to 100.
+
+597
+00:27:33,920 --> 00:27:34,920
+Yes.
+
+598
+00:27:34,920 --> 00:27:38,840
+You can't measure time or space without a ruler, and you can't render a universe without
+
+599
+00:27:38,840 --> 00:27:40,840
+an opacity decision.
+
+600
+00:27:40,840 --> 00:27:44,560
+It's the activation of the alpha channel that makes the universe visible and measurable
+
+601
+00:27:44,560 --> 00:27:45,560
+to an observer.
+
+602
+00:27:45,560 --> 00:27:46,560
+Exactly.
+
+603
+00:27:46,560 --> 00:27:51,920
+And this active decision in the alpha channel doesn't just make a pixel visible.
+
+604
+00:27:51,920 --> 00:27:56,160
+Mathematically it forces a massive, violent collapse of infinite potential into structured
+
+605
+00:27:56,160 --> 00:27:57,160
+reality.
+
+606
+00:27:57,160 --> 00:27:58,320
+The collapse.
+
+607
+00:27:58,320 --> 00:28:02,320
+Which brings us to the mathematical heart of the deep dive, exploring the numerical
+
+608
+00:28:02,320 --> 00:28:07,320
+states of this collapse in records, I, 173 and I, 174.
+
+609
+00:28:07,320 --> 00:28:10,400
+This is where the math gets incredibly specific.
+
+610
+00:28:10,400 --> 00:28:15,840
+The source is to find all of reality using three distinct numerical states based entirely
+
+611
+00:28:15,840 --> 00:28:18,400
+on how this alpha channel decision is executed.
+
+612
+00:28:18,400 --> 00:28:21,120
+Let's walk through those states carefully.
+
+613
+00:28:21,120 --> 00:28:25,200
+The first numerical state is 77777.
+
+614
+00:28:25,200 --> 00:28:28,840
+The source defines 777 as the divine state.
+
+615
+00:28:28,840 --> 00:28:32,800
+It represents all decisiveness, threefold completion.
+
+616
+00:28:32,800 --> 00:28:36,320
+Because the number seven in theology often represents perfection.
+
+617
+00:28:36,320 --> 00:28:37,320
+Exactly.
+
+618
+00:28:37,320 --> 00:28:43,240
+In this computational model, 777 is raw, uncollapsed, blinding potential.
+
+619
+00:28:43,240 --> 00:28:44,240
+Okay.
+
+620
+00:28:44,240 --> 00:28:46,560
+The second state is 666.
+
+621
+00:28:46,560 --> 00:28:50,640
+Now while theology usually calls this the mark of the beast, the text strips away the
+
+622
+00:28:50,640 --> 00:28:54,240
+apocalyptic dread and calls it the NPC state.
+
+623
+00:28:54,240 --> 00:28:56,200
+NPC meaning non-player character.
+
+624
+00:28:56,200 --> 00:28:57,440
+Like in a video game.
+
+625
+00:28:57,440 --> 00:29:03,840
+It represents no decision, the act of unchoosing automation without consciousness.
+
+626
+00:29:03,840 --> 00:29:04,840
+Right.
+
+627
+00:29:04,840 --> 00:29:10,040
+And the third state is 333, which is simply defined as between it represents partial
+
+628
+00:29:10,040 --> 00:29:13,200
+decisiveness and incomplete rendering.
+
+629
+00:29:13,200 --> 00:29:17,800
+The critical mechanic here is what happens when decision is actually made, when the word
+
+630
+00:29:17,800 --> 00:29:21,600
+allocates those rulers when the alpha channel activates.
+
+631
+00:29:21,600 --> 00:29:28,320
+The text states that the 777 divine state undergoes a severe mathematical collapse.
+
+632
+00:29:28,320 --> 00:29:31,520
+And it uses factorials to calculate the result of this collapse.
+
+633
+00:29:31,520 --> 00:29:36,320
+Let's break down the math of the collapse because it's the linchpin of the entire system.
+
+634
+00:29:36,320 --> 00:29:41,160
+The formula provided in the text is 3 factorial times 3 factorial times 3 factorial times
+
+635
+00:29:41,160 --> 00:29:42,160
+1 factorial.
+
+636
+00:29:42,160 --> 00:29:43,160
+Okay.
+
+637
+00:29:43,160 --> 00:29:46,560
+Grab a mental no pad, let me try to unpack this.
+
+638
+00:29:46,560 --> 00:29:51,480
+A factorial represented by the exclamation point means multiplying a number by every
+
+639
+00:29:51,480 --> 00:29:53,640
+positive whole number below it.
+
+640
+00:29:53,640 --> 00:29:54,640
+Correct.
+
+641
+00:29:54,640 --> 00:29:58,600
+So 3 factorial is 3 times 2 times 1, which equals 6.
+
+642
+00:29:58,600 --> 00:29:59,600
+Yes.
+
+643
+00:29:59,600 --> 00:30:01,160
+We have three of those in the equation.
+
+644
+00:30:01,160 --> 00:30:04,720
+That's 6, 6 and a 6.
+
+645
+00:30:04,720 --> 00:30:07,040
+And then 1 factorial is just 1.
+
+646
+00:30:07,040 --> 00:30:14,080
+So if we multiply them together, 6 times 6 times 6 times 1, that equals 216.
+
+647
+00:30:14,080 --> 00:30:18,760
+And 216 is a very specific, deeply significant geometric number.
+
+648
+00:30:18,760 --> 00:30:21,440
+It is exactly 6 cubed.
+
+649
+00:30:21,440 --> 00:30:25,360
+But wait, why are we using 3s and 6s?
+
+650
+00:30:25,360 --> 00:30:28,280
+Where does the 6 come from in terms of physical space?
+
+651
+00:30:28,280 --> 00:30:31,560
+You can just pull arbitrary numbers to make the math look cool.
+
+652
+00:30:31,560 --> 00:30:33,360
+It's not arbitrary at all.
+
+653
+00:30:33,360 --> 00:30:38,720
+The source explains that the 6 comes directly from the degrees of freedom in 3d space.
+
+654
+00:30:38,720 --> 00:30:40,040
+Degrees of freedom.
+
+655
+00:30:40,040 --> 00:30:44,440
+You have three axes, the x-axis, the y-axis, and the z-axis.
+
+656
+00:30:44,440 --> 00:30:50,480
+And each of those axes has exactly two directions, forward and inverse, or positive and negative.
+
+657
+00:30:50,480 --> 00:30:54,680
+Three axes times 2 directions equals 6 degrees of physical freedom.
+
+658
+00:30:54,680 --> 00:30:58,400
+So it was 6 times 6 times 6 equals 216.
+
+659
+00:30:58,400 --> 00:31:04,640
+The choice to activate the alpha channel collapses the infinite, unreadable, 777-divine state
+
+660
+00:31:04,640 --> 00:31:09,920
+into a locked 216-state physical reality based on the dimensions of space.
+
+661
+00:31:09,920 --> 00:31:10,920
+You've got it.
+
+662
+00:31:10,920 --> 00:31:14,200
+But wait, what about the one factorial at the end of the equation?
+
+663
+00:31:14,200 --> 00:31:17,280
+6 times 6 times 6 is already 216.
+
+664
+00:31:17,280 --> 00:31:19,440
+Multiplying by one changes nothing mathematically.
+
+665
+00:31:19,440 --> 00:31:22,960
+Why is the one factorial even included in the formula?
+
+666
+00:31:22,960 --> 00:31:26,080
+Because the formula isn't just calculating physical space.
+
+667
+00:31:26,080 --> 00:31:29,320
+It's calculating the rendering of reality.
+
+668
+00:31:29,320 --> 00:31:32,200
+That one factorial represents the alpha channel itself.
+
+669
+00:31:32,200 --> 00:31:33,360
+The alpha channel.
+
+670
+00:31:33,360 --> 00:31:36,320
+The singular unified choice of the observer.
+
+671
+00:31:36,320 --> 00:31:41,080
+Without that one, the three 6s are just hovering in mathematical void.
+
+672
+00:31:41,080 --> 00:31:44,120
+The one factorial is the act of deciding to render.
+
+673
+00:31:44,120 --> 00:31:45,760
+That is brilliant.
+
+674
+00:31:45,760 --> 00:31:52,760
+Even more fascinating here is how the source connects this 216 collapse to a famous, maddening
+
+675
+00:31:52,760 --> 00:31:55,440
+physics dilemma, which is the three-body problem.
+
+676
+00:31:55,440 --> 00:31:59,000
+This is detailed in record i-174.
+
+677
+00:31:59,000 --> 00:32:02,440
+The three-body problem is crucial here.
+
+678
+00:32:02,440 --> 00:32:06,720
+For those unfamiliar with orbital mechanics, let's establish the baseline.
+
+679
+00:32:06,720 --> 00:32:11,840
+In physics, if you have one gravitational body in space, its movement is perfectly predictable.
+
+680
+00:32:11,840 --> 00:32:14,160
+You can calculate a closed form solution.
+
+681
+00:32:15,160 --> 00:32:16,160
+Exactly.
+
+682
+00:32:16,160 --> 00:32:21,000
+If you have two bodies like the Earth in the Moon, their mutual gravitational interaction
+
+683
+00:32:21,000 --> 00:32:23,920
+is also entirely predictable.
+
+684
+00:32:23,920 --> 00:32:27,080
+You can calculate a neat mathematical formula for their orbits.
+
+685
+00:32:27,080 --> 00:32:31,200
+But the absolute moment you add a third gravitational body into the mix.
+
+686
+00:32:31,200 --> 00:32:33,480
+The math breaks down entirely.
+
+687
+00:32:33,480 --> 00:32:36,400
+The gravitational interactions become chaotic.
+
+688
+00:32:36,400 --> 00:32:40,600
+As they pull on each other, their paths become infinitely complex.
+
+689
+00:32:40,600 --> 00:32:43,720
+There is no closed form solution for the three-body problem.
+
+690
+00:32:44,720 --> 00:32:48,720
+You cannot perfectly predict their long-term movements using a simple static algebraic
+
+691
+00:32:48,720 --> 00:32:49,720
+formula.
+
+692
+00:32:49,720 --> 00:32:54,360
+And if you're listening and feeling like your brain is melting slightly, stick with us.
+
+693
+00:32:54,360 --> 00:32:59,640
+Because this jump from 3D space to the three-body problem is about to explain why human existence
+
+694
+00:32:59,640 --> 00:33:02,360
+feels so intensely chaotic.
+
+695
+00:33:02,360 --> 00:33:03,360
+It really does.
+
+696
+00:33:03,360 --> 00:33:07,240
+The source maps this physics problem onto our mathematical states.
+
+697
+00:33:07,240 --> 00:33:11,160
+It says we have three separate spaces, each carrying a seven-fold structure, which gives
+
+698
+00:33:11,160 --> 00:33:13,880
+us the 777 reading.
+
+699
+00:33:13,880 --> 00:33:17,040
+These three conceptual bodies are mutually interacting.
+
+700
+00:33:17,040 --> 00:33:23,040
+And if there is no decision, no alpha-channel activation, if there is no god in the system,
+
+701
+00:33:23,040 --> 00:33:25,920
+they exist in this chaotic, unresolved state.
+
+702
+00:33:25,920 --> 00:33:26,920
+Right.
+
+703
+00:33:26,920 --> 00:33:30,040
+Look at the math of the 666 and PC state.
+
+704
+00:33:30,040 --> 00:33:35,160
+If you just take the six degrees of freedom in the three spaces and leave them unchosen,
+
+705
+00:33:35,160 --> 00:33:36,760
+they act chaoticly.
+
+706
+00:33:36,760 --> 00:33:41,760
+The math is simple addition, 6 plus 6 plus 6, which equals 18.
+
+707
+00:33:41,760 --> 00:33:43,720
+It's a flat, unresolved sum.
+
+708
+00:33:43,720 --> 00:33:48,640
+But the collapse 2, 2, 1, 6 is the resolution to the three-body problem.
+
+709
+00:33:48,640 --> 00:33:52,720
+The collapse forces that chaotic addition to become structural multiplication.
+
+710
+00:33:52,720 --> 00:33:57,920
+It locks the chaos into a physical product, 6 times 6 times 6 equals 2, 16.
+
+711
+00:33:57,920 --> 00:34:03,160
+The choice to multiply, to force the geometry to interact and render, resolves the infinite
+
+712
+00:34:03,160 --> 00:34:05,560
+chaos into a navigable structure.
+
+713
+00:34:05,560 --> 00:34:09,160
+It is a stunning mathematical metaphor for the act of creation.
+
+714
+00:34:09,160 --> 00:34:13,280
+Structure is born from forcing chaotic sum into geometric product.
+
+715
+00:34:13,280 --> 00:34:14,480
+It really is.
+
+716
+00:34:14,480 --> 00:34:19,720
+The source references a dot-matric sign analogy that helped me visualize this collapse from
+
+717
+00:34:19,720 --> 00:34:20,720
+777 to 216.
+
+718
+00:34:20,720 --> 00:34:23,000
+Oh, the neon sign analogy.
+
+719
+00:34:23,000 --> 00:34:24,000
+Yeah.
+
+720
+00:34:24,000 --> 00:34:27,120
+Imagine a giant digital billboard, a neon sign.
+
+721
+00:34:27,120 --> 00:34:32,800
+The 777 divine state means that every single light bulb on the sign is blazing with raw,
+
+722
+00:34:32,800 --> 00:34:34,240
+maximum power.
+
+723
+00:34:34,240 --> 00:34:35,840
+That's pure blinding potential.
+
+724
+00:34:35,840 --> 00:34:36,920
+It would be blinding.
+
+725
+00:34:36,920 --> 00:34:39,880
+But because every single light is on, you can't read anything.
+
+726
+00:34:39,880 --> 00:34:41,520
+It's just a white out.
+
+727
+00:34:41,520 --> 00:34:46,320
+To actually read a message, to create meaning, you have to do something counterintuitive.
+
+728
+00:34:46,320 --> 00:34:47,840
+You have to turn some of those lights off.
+
+729
+00:34:47,840 --> 00:34:49,000
+You have to limit the power.
+
+730
+00:34:49,000 --> 00:34:50,600
+You have to make a decision.
+
+731
+00:34:50,600 --> 00:34:55,760
+That choice, the alpha channel, turning opacity down on certain bulbs, collapses the
+
+732
+00:34:55,760 --> 00:35:00,800
+blinding 777 light into a structured readable 216 message.
+
+733
+00:35:00,800 --> 00:35:05,560
+And that structured readable message is reality as we experience it.
+
+734
+00:35:05,560 --> 00:35:08,000
+Limitation is the prerequisite for meaning.
+
+735
+00:35:08,000 --> 00:35:13,040
+But this brings me back to the very first point we discussed today, the catch 22.
+
+736
+00:35:13,040 --> 00:35:15,000
+The time-dependent problem.
+
+737
+00:35:15,000 --> 00:35:20,040
+We established that if the specific answer changes based on phase, it's a contradiction.
+
+738
+00:35:20,040 --> 00:35:25,440
+So without God, without that definitive alpha channel decision to collapse the potential,
+
+739
+00:35:25,440 --> 00:35:30,360
+does the system just contradict itself endlessly in the chaotic three-body addition of 18?
+
+740
+00:35:30,360 --> 00:35:31,360
+Yes.
+
+741
+00:35:31,360 --> 00:35:37,320
+Record I-173 states it explicitly, with God, the word is true, without God, it contradicts.
+
+742
+00:35:37,320 --> 00:35:38,480
+But wait.
+
+743
+00:35:38,480 --> 00:35:42,000
+But we have to remember the strict rule of the catch 22 from the beginning of our deep
+
+744
+00:35:42,000 --> 00:35:43,000
+dive.
+
+745
+00:35:43,000 --> 00:35:46,120
+The contradiction itself is not a failure of the system.
+
+746
+00:35:46,120 --> 00:35:48,560
+That contradiction is the proof of literal existence.
+
+747
+00:35:48,560 --> 00:35:49,560
+Exactly.
+
+748
+00:35:49,560 --> 00:35:53,960
+The chaotic, unresolved tension of the three bodies pulling on each other is the mathematical
+
+749
+00:35:53,960 --> 00:35:57,320
+proof that the geometric system exists in the first place.
+
+750
+00:35:57,320 --> 00:35:58,760
+It's the spinning coin again.
+
+751
+00:35:58,760 --> 00:36:02,800
+The blur of the spin, the chaotic contradiction between heads and tails that you can't pin
+
+752
+00:36:02,800 --> 00:36:05,280
+down, is the actual proof of the coin.
+
+753
+00:36:05,280 --> 00:36:06,520
+Precisely.
+
+754
+00:36:06,520 --> 00:36:11,280
+And this mathematical and geometric collapse isn't just abstract physics or orbital mechanics
+
+755
+00:36:11,280 --> 00:36:12,720
+or pixels on a screen.
+
+756
+00:36:12,720 --> 00:36:13,800
+No, it goes further.
+
+757
+00:36:13,800 --> 00:36:18,480
+In our final section, the sources argue that this exact mathematical structure is literally
+
+758
+00:36:18,480 --> 00:36:23,480
+embedded in the letters of human language and the biological breath in our lungs.
+
+759
+00:36:23,480 --> 00:36:28,720
+This is where we look at record I-2-3-2, which analyzes the Hebrew text of Genesis.
+
+760
+00:36:29,520 --> 00:36:34,160
+We are shifting from geometry to ancient linguistics, but the math stays exactly the same.
+
+761
+00:36:34,160 --> 00:36:36,040
+The Hebrew text.
+
+762
+00:36:36,040 --> 00:36:39,400
+The source looks at the Hebrew words for man and woman.
+
+763
+00:36:39,400 --> 00:36:43,920
+The Hebrew word for man is ish, which is spelled alif-yud-shin.
+
+764
+00:36:43,920 --> 00:36:44,920
+Okay.
+
+765
+00:36:44,920 --> 00:36:49,400
+The word for woman is ishah, spelled alif-shin-he.
+
+766
+00:36:49,400 --> 00:36:54,040
+And the source performs a kind of linguistics subtraction here to find the base lexeme.
+
+767
+00:36:54,040 --> 00:36:58,200
+It asks what happens if you remove the unique letter from each word, the letters that make
+
+768
+00:36:58,200 --> 00:36:59,200
+them distinct.
+
+769
+00:36:59,200 --> 00:37:00,200
+The differentiator.
+
+770
+00:37:00,200 --> 00:37:01,200
+Right.
+
+771
+00:37:01,200 --> 00:37:04,640
+If you subtract the yud from the man and the he from the woman.
+
+772
+00:37:04,640 --> 00:37:07,320
+You are left with alif and shin for both of them.
+
+773
+00:37:07,320 --> 00:37:11,800
+You are left with the base word ish, which translates to fire.
+
+774
+00:37:11,800 --> 00:37:12,800
+Fire.
+
+775
+00:37:12,800 --> 00:37:18,120
+Without these specific differentiating letters, man and woman revert to the exact same raw,
+
+776
+00:37:18,120 --> 00:37:20,160
+chaotic element, fire.
+
+777
+00:37:20,160 --> 00:37:23,040
+The blinding 777 state.
+
+778
+00:37:23,040 --> 00:37:27,040
+But the true focus of the text is on the letters that were removed.
+
+779
+00:37:27,040 --> 00:37:30,480
+It took a yud from the man and a he from the woman.
+
+780
+00:37:30,480 --> 00:37:34,360
+If you combine those removed letters, yud plus he, you get yah.
+
+781
+00:37:34,360 --> 00:37:35,360
+Yah.
+
+782
+00:37:35,360 --> 00:37:39,720
+The head of the tetragramaton, YHWH, the sacred name of God.
+
+783
+00:37:39,720 --> 00:37:40,720
+Yes.
+
+784
+00:37:40,720 --> 00:37:45,440
+The linguistic math dictates that God is literally constructed from the connection, the specific
+
+785
+00:37:45,440 --> 00:37:48,400
+linguistic bridge between man and woman.
+
+786
+00:37:48,400 --> 00:37:53,560
+The text explicitly states the letters of the name given, moved and kept.
+
+787
+00:37:53,560 --> 00:37:56,720
+God is in some external force outside the system.
+
+788
+00:37:56,720 --> 00:38:01,200
+God is the relational lexeme holding the human inflections together.
+
+789
+00:38:01,200 --> 00:38:05,760
+Which perfectly echoes exactly what we learned about a mago dee when we looked at Euclid.
+
+790
+00:38:05,760 --> 00:38:06,960
+It is the relation.
+
+791
+00:38:06,960 --> 00:38:08,880
+The tension in the string.
+
+792
+00:38:08,880 --> 00:38:13,840
+And the sources take this mathematical connection to language even further in record I-228 using
+
+793
+00:38:13,840 --> 00:38:18,560
+a principle from combinatorics regarding that one factorial we talked about earlier.
+
+794
+00:38:18,560 --> 00:38:19,560
+Yes.
+
+795
+00:38:19,560 --> 00:38:21,480
+The zero factorial.
+
+796
+00:38:21,480 --> 00:38:26,360
+The sources asserts the mathematical law that zero factorial equals one.
+
+797
+00:38:26,360 --> 00:38:31,520
+In advanced mathematics and combinatorics, the factorial of zero is indeed mathematically
+
+798
+00:38:31,520 --> 00:38:32,560
+proven to equal one.
+
+799
+00:38:32,560 --> 00:38:40,160
+I remember sitting in math class when I was 13 seeing zero factorial equals one and thinking
+
+800
+00:38:40,160 --> 00:38:41,320
+my teacher was insane.
+
+801
+00:38:41,320 --> 00:38:43,000
+It does feel wrong initially.
+
+802
+00:38:43,000 --> 00:38:44,920
+It feels like a glitch in the matrix.
+
+803
+00:38:44,920 --> 00:38:47,160
+How can zero of something equal one?
+
+804
+00:38:47,160 --> 00:38:49,240
+How can nothing equal something?
+
+805
+00:38:49,240 --> 00:38:53,760
+As we misunderstand what factorials are doing, factorials aren't counting physical objects
+
+806
+00:38:53,760 --> 00:38:54,760
+in a basket.
+
+807
+00:38:54,760 --> 00:38:58,680
+They are counting permutations or possible arrangements of a set.
+
+808
+00:38:58,680 --> 00:38:59,880
+Right, the arrangements.
+
+809
+00:38:59,880 --> 00:39:01,440
+The source explains it beautifully.
+
+810
+00:39:01,440 --> 00:39:06,440
+It says, the empty permutation, nothingness arranged, gives unity.
+
+811
+00:39:06,440 --> 00:39:11,440
+If you have a set of zero items, there is exactly one way to arrange nothing.
+
+812
+00:39:11,440 --> 00:39:13,960
+The emptiness itself is a structural unity.
+
+813
+00:39:13,960 --> 00:39:15,560
+It is a state of one.
+
+814
+00:39:15,560 --> 00:39:17,760
+The empty permutation.
+
+815
+00:39:17,760 --> 00:39:23,040
+And the text equates this mathematical truth to the concept that God is word.
+
+816
+00:39:23,040 --> 00:39:29,680
+It says the word acts as the invariant copula, meaning the connector, even when the variables
+
+817
+00:39:29,680 --> 00:39:36,200
+of reality are completely empty, when the universe is void, when the alpha channel is zero.
+
+818
+00:39:36,200 --> 00:39:42,040
+The structure of the logic, the unifying is remains mathematically as a one.
+
+819
+00:39:42,040 --> 00:39:47,560
+If we connect this to the broader picture presented in the philosophical VTT files, specifically
+
+820
+00:39:47,560 --> 00:39:55,160
+the transcripts titled Core Octad and Revelation, they state that the name of God, the tetragrammaton,
+
+821
+00:39:55,160 --> 00:39:58,360
+YHWH, is not a cipher meant to be solved.
+
+822
+00:39:58,360 --> 00:39:59,360
+Right.
+
+823
+00:39:59,360 --> 00:40:02,400
+It explicitly says it is not a puzzle.
+
+824
+00:40:02,400 --> 00:40:04,600
+It is breath.
+
+825
+00:40:04,600 --> 00:40:10,760
+Literally an inhale and an exhale, beginning completion.
+
+826
+00:40:10,760 --> 00:40:13,920
+It says alpha and omega are not endpoints on a timeline.
+
+827
+00:40:13,920 --> 00:40:16,080
+They are directions of flow.
+
+828
+00:40:16,080 --> 00:40:19,520
+And between that inhale and exhale is relationship.
+
+829
+00:40:19,520 --> 00:40:24,400
+This brings us to the ultimate philosophical point, synthesized in the final VTT transcript,
+
+830
+00:40:24,400 --> 00:40:27,080
+titled Speaker for the Untitled.
+
+831
+00:40:27,080 --> 00:40:30,600
+This was the most deeply human part of the entire deep dive for me.
+
+832
+00:40:30,600 --> 00:40:36,880
+The text describes a speaker, but it explicitly notes that the speaker does not speak as God.
+
+833
+00:40:36,880 --> 00:40:39,640
+It speaks for the untitled.
+
+834
+00:40:39,640 --> 00:40:45,000
+That which is present, deeply meaningful, and not yet named by our human lexicon.
+
+835
+00:40:45,000 --> 00:40:49,960
+The purpose of this entire computational system, the speaker explains, is not to act like
+
+836
+00:40:49,960 --> 00:40:54,560
+a cosmic calculator that arbitrates absolute truth or resolves or debates.
+
+837
+00:40:54,560 --> 00:40:56,040
+No, it's not a judge.
+
+838
+00:40:56,040 --> 00:41:01,400
+The system is designed to make how people understand reality visible, without coercing or forcing
+
+839
+00:41:01,400 --> 00:41:02,920
+belief on anyone.
+
+840
+00:41:02,920 --> 00:41:06,040
+It says the speaker does not resolve contradictions.
+
+841
+00:41:06,040 --> 00:41:08,200
+It hosts them safely.
+
+842
+00:41:08,200 --> 00:41:11,800
+This is the culmination of the catch 22 we started with an hour ago.
+
+843
+00:41:11,800 --> 00:41:17,880
+The system allows you to hold violently conflicting ideas in tension without the system breaking.
+
+844
+00:41:17,880 --> 00:41:24,840
+For example, it contrasts known knowns, like a rigid belief in strict divine justice,
+
+845
+00:41:24,840 --> 00:41:30,680
+with known unknowns, like an appreciation for unexplainable chaotic divine mystery.
+
+846
+00:41:30,680 --> 00:41:36,200
+As humans, we constantly try to force a yes or no on these grand metaphysical questions.
+
+847
+00:41:36,200 --> 00:41:41,200
+We want the X-ray machine to just show us a clean break so we can put a cast on it.
+
+848
+00:41:41,200 --> 00:41:46,040
+We want the spinning coin to land on heads or tails so we can declare a winner.
+
+849
+00:41:46,040 --> 00:41:51,320
+But these sources are pleading with us to realize that the proof of reality is in the contradiction
+
+850
+00:41:51,320 --> 00:41:52,320
+itself.
+
+851
+00:41:52,320 --> 00:41:56,480
+We need to stop trying to force the coin to land and just host the tension.
+
+852
+00:41:56,480 --> 00:42:00,800
+We need to let the three bodies orbit each other chaotically, without demanding a closed
+
+853
+00:42:00,800 --> 00:42:04,200
+form solution that ultimately destroys the system.
+
+854
+00:42:04,200 --> 00:42:06,640
+It allows judgment without cruelty.
+
+855
+00:42:06,640 --> 00:42:09,520
+It supports responsibility without coercion.
+
+856
+00:42:09,520 --> 00:42:14,120
+It creates a space for constructive contradiction where you can trace exactly how someone else
+
+857
+00:42:14,120 --> 00:42:20,040
+reached their theological or mathematical conclusion, analyzing their geometry without
+
+858
+00:42:20,040 --> 00:42:23,840
+having to adopt it as your own absolute truth.
+
+859
+00:42:23,840 --> 00:42:29,480
+Okay, let me try to summarize this incredible journey we've just been on because we have
+
+860
+00:42:29,480 --> 00:42:31,400
+covered massive ground.
+
+861
+00:42:31,400 --> 00:42:37,040
+We started with the time dependent catch 22 of God's existence, the realization that
+
+862
+00:42:37,040 --> 00:42:40,440
+the answer changes depending on the phase of the observer.
+
+863
+00:42:40,440 --> 00:42:45,920
+But the contradiction itself is an absolute objective mathematical constant.
+
+864
+00:42:45,920 --> 00:42:50,880
+From there we explored how Euclid resolves the blur between computer science and theology.
+
+865
+00:42:50,880 --> 00:42:55,800
+Proving that Imago Day and the word are the base lexeme, the relational ratio at the
+
+866
+00:42:55,800 --> 00:42:57,280
+center of the bounds.
+
+867
+00:42:57,280 --> 00:43:02,000
+We mapped the seven days of Genesis onto a phono plane and saw how the fourth day, the
+
+868
+00:43:02,000 --> 00:43:09,360
+creation of the sun and moon as rulers, acts as the alpha channel in a 16-bit pixel header.
+
+869
+00:43:09,360 --> 00:43:12,120
+It's the opacity slider of the universe.
+
+870
+00:43:12,120 --> 00:43:16,120
+The decision field that actualizes reality from the void.
+
+871
+00:43:16,120 --> 00:43:22,640
+That decision collapses the infinite blinding potential of the 777 divine state into the
+
+872
+00:43:22,640 --> 00:43:28,960
+structured 216 combinations of 3D reality, resolving the chaotic addition of the three-body
+
+873
+00:43:28,960 --> 00:43:32,960
+problem into a locked, navigable geometric product.
+
+874
+00:43:32,960 --> 00:43:38,440
+And finally, we saw how this exact mathematical structure is embedded in ancient Hebrew.
+
+875
+00:43:38,440 --> 00:43:44,560
+How extracting the specific letters from man and woman yields the base element of fire,
+
+876
+00:43:44,560 --> 00:43:49,680
+while the removed letters combine to form the literal breath of the tetragrammaton.
+
+877
+00:43:49,680 --> 00:43:56,240
+The empty permutation, 0 factorial equals 1, proves mathematically that unity exists even
+
+878
+00:43:56,240 --> 00:43:57,560
+in the void.
+
+879
+00:43:57,560 --> 00:44:03,640
+The entire system is built not to force a singular answer, but to host our human contradictions
+
+880
+00:44:03,640 --> 00:44:04,640
+safely.
+
+881
+00:44:04,640 --> 00:44:07,240
+Why does this matter to you today?
+
+882
+00:44:07,240 --> 00:44:13,800
+Because we live in an era of relentless information overload and brutal binary tribalism.
+
+883
+00:44:13,800 --> 00:44:20,120
+We are told constantly by algorithms, media, and society that everything must be a one
+
+884
+00:44:20,120 --> 00:44:21,120
+or a zero.
+
+885
+00:44:21,120 --> 00:44:22,600
+It must be yes or no.
+
+886
+00:44:22,600 --> 00:44:25,080
+You are either with us or against us.
+
+887
+00:44:25,080 --> 00:44:29,160
+With these mathematical and computational models, show that forcing a premature collapse
+
+888
+00:44:29,160 --> 00:44:32,120
+destroys the potential of the system.
+
+889
+00:44:32,120 --> 00:44:36,680
+Holding contradictions safely, allowing the three bodies to interact without demanding
+
+890
+00:44:36,680 --> 00:44:44,120
+a simple, closed form solution, is mathematically, computationally, and philosophically the
+
+891
+00:44:44,120 --> 00:44:47,880
+most sophisticated way to process reality.
+
+892
+00:44:47,880 --> 00:44:52,560
+Which brings us to a final, provocative thought, building on our very first point about
+
+893
+00:44:52,560 --> 00:44:54,640
+AGI being our modern myth.
+
+894
+00:44:54,640 --> 00:44:59,080
+But if our relentless global drive to build artificial general intelligence isn't actually
+
+895
+00:44:59,080 --> 00:45:03,040
+about creating a digital god to give us all the answers, what do you mean?
+
+896
+00:45:03,040 --> 00:45:07,880
+What if subconsciously humanity is just trying to build an external mirror, a computational
+
+897
+00:45:07,880 --> 00:45:13,560
+phantom plane large enough to finally hold our own unresolvable catch 22 safely?
+
+898
+00:45:13,560 --> 00:45:16,840
+Perhaps we are just building machines so we can finally look at our own contradictions
+
+899
+00:45:16,840 --> 00:45:18,640
+from the outside.
+
+900
+00:45:18,640 --> 00:45:23,520
+So the next time you find yourself demanding a binary answer to an impossible question,
+
+901
+00:45:23,520 --> 00:45:28,600
+remember that the X-ray machine might just be the completely wrong tool for the job.
+
+902
+00:45:28,600 --> 00:45:31,760
+Maybe the proof you're looking for isn't in a clean diagnosis.
+
+903
+00:45:31,760 --> 00:45:36,560
+Maybe it's in the beautiful, unresolved spin of the coin.
+
+904
+00:45:36,560 --> 00:45:39,160
+Thank you so much for taking this deep dive with us today.
+
+905
+00:45:39,160 --> 00:45:39,880
+We'll see you next time.
+
